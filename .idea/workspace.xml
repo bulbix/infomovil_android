@@ -9,7 +9,41 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9223fc90-0465-472f-a1b5-54ffb371f330" name="Default" comment="" />
+    <list default="true" id="9223fc90-0465-472f-a1b5-54ffb371f330" name="Default" comment="">
+      <change type="DELETED" beforePath="F:\AndroidProjects\infomovil_androidstudio\Infomovil.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/androidViewPagerIndicator/androidViewPagerIndicator.iml" afterPath="$PROJECT_DIR$/androidViewPagerIndicator/androidViewPagerIndicator.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/androidsdkui/androidsdkui.iml" afterPath="$PROJECT_DIR$/androidsdkui/androidsdkui.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/colorPickerView/colorPickerView.iml" afterPath="$PROJECT_DIR$/colorPickerView/colorPickerView.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facebookSDK/facebookSDK.iml" afterPath="$PROJECT_DIR$/facebookSDK/facebookSDK.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infomovil/infomovil.iml" afterPath="$PROJECT_DIR$/infomovil/infomovil.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/mediarouter_v7_22_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mediarouter_v7_22_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mlkAndroidChartApimaster/mlkAndroidChartApimaster.iml" afterPath="$PROJECT_DIR$/mlkAndroidChartApimaster/mlkAndroidChartApimaster.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_7_8_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_ads_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_ads_7_8_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_appindexing_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_appindexing_7_8_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_appstate_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_appstate_7_8_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_base_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_base_7_8_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_cast_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_cast_7_8_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_fitness_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_fitness_7_8_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_maps_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_maps_7_8_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_nearby_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_nearby_7_8_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_panorama_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_panorama_7_8_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_safetynet_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_safetynet_7_8_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_vision_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_vision_7_8_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_wallet_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_wallet_7_8_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/segmentedControl/segmentedControl.iml" afterPath="$PROJECT_DIR$/segmentedControl/segmentedControl.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplecropimagelib/simplecropimagelib.iml" afterPath="$PROJECT_DIR$/simplecropimagelib/simplecropimagelib.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_22_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_22_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wheel/wheel.iml" afterPath="$PROJECT_DIR$/wheel/wheel.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Infomovil.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/build/classes/" />
@@ -53,7 +87,7 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="Infomovil" />
+              <option name="name" value="infomovil_androidstudio" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
@@ -88,16 +122,16 @@
                 <option name="path" value="$PROJECT_DIR$/facebookSDK" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="Infomovil" />
-                <option name="path" value="$PROJECT_DIR$" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
                 <option name="name" value=":wheel" />
                 <option name="path" value="$PROJECT_DIR$/wheel" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value=":segmentedControl" />
                 <option name="path" value="$PROJECT_DIR$/segmentedControl" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="infomovil_androidstudio" />
+                <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -110,17 +144,17 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'Infomovil'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'infomovil_androidstudio'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'Infomovil'." />
+                <option name="description" value="Displays all dependencies declared in root project 'infomovil_androidstudio'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'Infomovil'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'infomovil_androidstudio'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -135,22 +169,22 @@
                 <option name="name" value="init" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'Infomovil'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'infomovil_androidstudio'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'Infomovil'." />
+                <option name="description" value="Displays the sub-projects of root project 'infomovil_androidstudio'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'Infomovil'." />
+                <option name="description" value="Displays the properties of root project 'infomovil_androidstudio'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'Infomovil' (some of the displayed tasks may belong to subprojects)." />
+                <option name="description" value="Displays the tasks runnable from root project 'infomovil_androidstudio' (some of the displayed tasks may belong to subprojects)." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -856,44 +890,44 @@
                 <option name="name" value="prepareComGoogleAndroidGmsPlayServicesWearable780Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare Infomovil:androidViewPagerIndicator:unspecified" />
+                <option name="description" value="Prepare infomovil_androidstudio:androidViewPagerIndicator:unspecified" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareInfomovilAndroidViewPagerIndicatorUnspecifiedLibrary" />
+                <option name="name" value="prepareInfomovil_androidstudioAndroidViewPagerIndicatorUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare Infomovil:androidsdkui:unspecified" />
+                <option name="description" value="Prepare infomovil_androidstudio:androidsdkui:unspecified" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareInfomovilAndroidsdkuiUnspecifiedLibrary" />
+                <option name="name" value="prepareInfomovil_androidstudioAndroidsdkuiUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare Infomovil:colorPickerView:unspecified" />
+                <option name="description" value="Prepare infomovil_androidstudio:colorPickerView:unspecified" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareInfomovilColorPickerViewUnspecifiedLibrary" />
+                <option name="name" value="prepareInfomovil_androidstudioColorPickerViewUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare Infomovil:facebookSDK:unspecified" />
+                <option name="description" value="Prepare infomovil_androidstudio:facebookSDK:unspecified" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareInfomovilFacebookSDKUnspecifiedLibrary" />
+                <option name="name" value="prepareInfomovil_androidstudioFacebookSDKUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare Infomovil:mlkAndroidChartApimaster:unspecified" />
+                <option name="description" value="Prepare infomovil_androidstudio:mlkAndroidChartApimaster:unspecified" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareInfomovilMlkAndroidChartApimasterUnspecifiedLibrary" />
+                <option name="name" value="prepareInfomovil_androidstudioMlkAndroidChartApimasterUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare Infomovil:segmentedControl:unspecified" />
+                <option name="description" value="Prepare infomovil_androidstudio:segmentedControl:unspecified" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareInfomovilSegmentedControlUnspecifiedLibrary" />
+                <option name="name" value="prepareInfomovil_androidstudioSegmentedControlUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare Infomovil:simplecropimagelib:unspecified" />
+                <option name="description" value="Prepare infomovil_androidstudio:simplecropimagelib:unspecified" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareInfomovilSimplecropimagelibUnspecifiedLibrary" />
+                <option name="name" value="prepareInfomovil_androidstudioSimplecropimagelibUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare Infomovil:wheel:unspecified" />
+                <option name="description" value="Prepare infomovil_androidstudio:wheel:unspecified" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareInfomovilWheelUnspecifiedLibrary" />
+                <option name="name" value="prepareInfomovil_androidstudioWheelUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -3616,44 +3650,44 @@
                 <option name="name" value="prepareDebugUnitTestDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare Infomovil:androidViewPagerIndicator:unspecified" />
+                <option name="description" value="Prepare infomovil_androidstudio:androidViewPagerIndicator:unspecified" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/infomovil" />
-                <option name="name" value="prepareInfomovilAndroidViewPagerIndicatorUnspecifiedLibrary" />
+                <option name="name" value="prepareInfomovil_androidstudioAndroidViewPagerIndicatorUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare Infomovil:androidsdkui:unspecified" />
+                <option name="description" value="Prepare infomovil_androidstudio:androidsdkui:unspecified" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/infomovil" />
-                <option name="name" value="prepareInfomovilAndroidsdkuiUnspecifiedLibrary" />
+                <option name="name" value="prepareInfomovil_androidstudioAndroidsdkuiUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare Infomovil:colorPickerView:unspecified" />
+                <option name="description" value="Prepare infomovil_androidstudio:colorPickerView:unspecified" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/infomovil" />
-                <option name="name" value="prepareInfomovilColorPickerViewUnspecifiedLibrary" />
+                <option name="name" value="prepareInfomovil_androidstudioColorPickerViewUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare Infomovil:facebookSDK:unspecified" />
+                <option name="description" value="Prepare infomovil_androidstudio:facebookSDK:unspecified" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/infomovil" />
-                <option name="name" value="prepareInfomovilFacebookSDKUnspecifiedLibrary" />
+                <option name="name" value="prepareInfomovil_androidstudioFacebookSDKUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare Infomovil:mlkAndroidChartApimaster:unspecified" />
+                <option name="description" value="Prepare infomovil_androidstudio:mlkAndroidChartApimaster:unspecified" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/infomovil" />
-                <option name="name" value="prepareInfomovilMlkAndroidChartApimasterUnspecifiedLibrary" />
+                <option name="name" value="prepareInfomovil_androidstudioMlkAndroidChartApimasterUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare Infomovil:segmentedControl:unspecified" />
+                <option name="description" value="Prepare infomovil_androidstudio:segmentedControl:unspecified" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/infomovil" />
-                <option name="name" value="prepareInfomovilSegmentedControlUnspecifiedLibrary" />
+                <option name="name" value="prepareInfomovil_androidstudioSegmentedControlUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare Infomovil:simplecropimagelib:unspecified" />
+                <option name="description" value="Prepare infomovil_androidstudio:simplecropimagelib:unspecified" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/infomovil" />
-                <option name="name" value="prepareInfomovilSimplecropimagelibUnspecifiedLibrary" />
+                <option name="name" value="prepareInfomovil_androidstudioSimplecropimagelibUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare Infomovil:wheel:unspecified" />
+                <option name="description" value="Prepare infomovil_androidstudio:wheel:unspecified" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/infomovil" />
-                <option name="name" value="prepareInfomovilWheelUnspecifiedLibrary" />
+                <option name="name" value="prepareInfomovil_androidstudioWheelUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/infomovil" />
@@ -5915,6 +5949,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="F:\AndroidProjects\Infomovil" value="15846888787635" />
+        <entry key="F:\AndroidProjects\infomovil_androidstudio" value="15847061636085" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -7001,7 +7036,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1320" />
-    <option name="height" value="784" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -7059,9 +7094,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -7281,16 +7316,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1320" height="780" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.4873016" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5917065" sideWeight="0.5126984" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.58054227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57945424" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47208932" sideWeight="0.48095238" order="7" side_tool="false" content_ui="tabs" />
@@ -7301,13 +7337,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23730159" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32744783" sideWeight="0.51031744" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.51031744" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>

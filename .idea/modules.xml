@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Infomovil.iml" filepath="$PROJECT_DIR$/Infomovil.iml" />
       <module fileurl="file://$PROJECT_DIR$/androidViewPagerIndicator/androidViewPagerIndicator.iml" filepath="$PROJECT_DIR$/androidViewPagerIndicator/androidViewPagerIndicator.iml" />
       <module fileurl="file://$PROJECT_DIR$/androidsdkui/androidsdkui.iml" filepath="$PROJECT_DIR$/androidsdkui/androidsdkui.iml" />
       <module fileurl="file://$PROJECT_DIR$/colorPickerView/colorPickerView.iml" filepath="$PROJECT_DIR$/colorPickerView/colorPickerView.iml" />
       <module fileurl="file://$PROJECT_DIR$/facebookSDK/facebookSDK.iml" filepath="$PROJECT_DIR$/facebookSDK/facebookSDK.iml" />
       <module fileurl="file://$PROJECT_DIR$/infomovil/infomovil.iml" filepath="$PROJECT_DIR$/infomovil/infomovil.iml" />
+      <module fileurl="file://$PROJECT_DIR$/infomovil_androidstudio.iml" filepath="$PROJECT_DIR$/infomovil_androidstudio.iml" />
       <module fileurl="file://$PROJECT_DIR$/mlkAndroidChartApimaster/mlkAndroidChartApimaster.iml" filepath="$PROJECT_DIR$/mlkAndroidChartApimaster/mlkAndroidChartApimaster.iml" />
       <module fileurl="file://$PROJECT_DIR$/segmentedControl/segmentedControl.iml" filepath="$PROJECT_DIR$/segmentedControl/segmentedControl.iml" />
       <module fileurl="file://$PROJECT_DIR$/simplecropimagelib/simplecropimagelib.iml" filepath="$PROJECT_DIR$/simplecropimagelib/simplecropimagelib.iml" />
