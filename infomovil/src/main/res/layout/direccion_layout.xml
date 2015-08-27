@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground" >
+
+    <ScrollView
+        android:id="@+id/scrollDireccion" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"        
+        android:layout_centerHorizontal="true"
+        android:fadeScrollbars="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content" >
+
+            <com.infomovil.infomovil.gui.common.TextWithFont
+                android:id="@+id/labelDireccion1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/textoDireccion1"                
+                android:textColor="@color/colorFuenteVerde"
+                android:textSize="19sp" />
+
+            <com.infomovil.infomovil.gui.common.EditTextWithFont
+                android:id="@+id/txtDireccion1"
+                android:layout_width="match_parent"
+                android:maxLength="255"
+                android:layout_height="35dp"
+                android:layout_below="@+id/labelDireccion1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_border"
+                android:textColor="@color/colorFuenteAzul"
+                android:textSize="19sp"
+                android:paddingLeft="10dp"
+                android:inputType="text" />
+
+            <com.infomovil.infomovil.gui.common.TextWithFont
+                android:id="@+id/labelDireccion2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDireccion1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="@string/textoDireccion2"
+                android:textColor="@color/colorFuenteVerde"
+                android:textSize="19sp" />
+
+            <com.infomovil.infomovil.gui.common.EditTextWithFont
+                android:id="@+id/txtDireccion2"
+                android:layout_width="match_parent"
+                android:maxLength="255"
+                android:layout_height="35dp"
+                android:layout_below="@+id/labelDireccion2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_border"
+                android:textColor="@color/colorFuenteAzul"
+                android:textSize="19sp"
+                android:paddingLeft="10dp"
+                android:inputType="text" />
+
+            <com.infomovil.infomovil.gui.common.TextWithFont
+                android:id="@+id/labelDireccion3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDireccion2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="@string/textoDireccion3"
+                android:textColor="@color/colorFuenteVerde"
+                android:textSize="19sp" />
+
+            <com.infomovil.infomovil.gui.common.EditTextWithFont
+                android:id="@+id/txtDireccion3"
+                android:layout_width="match_parent"
+                android:maxLength="255"
+                android:layout_height="35dp"
+                android:paddingLeft="10dp"
+                android:layout_below="@+id/labelDireccion3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_border"
+                android:textColor="@color/colorFuenteAzul"
+                android:textSize="19sp"
+                android:inputType="text" />
+
+            <com.infomovil.infomovil.gui.common.TextWithFont
+                android:id="@+id/labelCiudad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDireccion3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="@string/textoCiudad"
+                android:textColor="@color/colorFuenteVerde"
+                android:textSize="19sp" />
+
+            <com.infomovil.infomovil.gui.common.EditTextWithFont
+                android:id="@+id/txtCiudad"
+                android:layout_width="match_parent"
+                android:maxLength="255"
+                android:layout_height="35dp"
+                android:layout_below="@+id/labelCiudad"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_border"
+                android:textColor="@color/colorFuenteAzul"
+                android:textSize="19sp"
+                android:paddingLeft="10dp"
+                android:inputType="text" />
+
+            <com.infomovil.infomovil.gui.common.TextWithFont
+                android:id="@+id/labelEstado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtCiudad"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="@string/textoEstado"
+                android:textColor="@color/colorFuenteVerde"
+                android:textSize="19sp" />
+
+            <com.infomovil.infomovil.gui.common.EditTextWithFont
+                android:id="@+id/txtEstado"
+                android:layout_width="match_parent"
+                android:maxLength="255"
+                android:layout_height="35dp"
+                android:layout_below="@+id/labelEstado"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_border"
+                android:textColor="@color/colorFuenteAzul"
+                android:textSize="19sp"
+                android:paddingLeft="10dp"
+                android:inputType="text" />
+
+            <com.infomovil.infomovil.gui.common.TextWithFont
+                android:id="@+id/labelPaisDireccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtEstado"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="@string/txtPais"
+                android:textColor="@color/colorFuenteVerde"
+                android:textSize="19sp" />
+
+            <com.infomovil.infomovil.gui.common.EditTextWithFont
+                android:id="@+id/txtPaisDireccion"
+                android:layout_width="match_parent"
+                android:maxLength="255"
+                android:layout_height="35dp"
+                android:layout_below="@+id/labelPaisDireccion"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_border"
+                android:textColor="@color/colorFuenteAzul"
+                android:textSize="19sp"
+                android:paddingLeft="10dp"
+                android:inputType="text" />
+
+            <com.infomovil.infomovil.gui.common.TextWithFont
+                android:id="@+id/labelCP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtPaisDireccion"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="@string/textoCP"
+                android:textColor="@color/colorFuenteVerde"
+                android:textSize="19sp" />
+
+            <com.infomovil.infomovil.gui.common.EditTextWithFont
+                android:id="@+id/txtCP"
+                android:layout_width="match_parent"
+                android:maxLength="10"
+                android:layout_height="35dp"
+                android:layout_below="@+id/labelCP"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_border"
+                android:textColor="@color/colorFuenteAzul"
+                android:textSize="19sp"
+                android:paddingLeft="10dp"
+                android:inputType="text" />
+            
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/colorBackground"
+                android:layout_below="@+id/txtCP" >
+            </RelativeLayout>
+            
+            <Button 
+     			android:id="@+id/botonBorrarDireccion"
+        		android:layout_width="29dp"
+        		android:layout_height="35dp"
+        		android:layout_below="@+id/txtCP"
+        		android:layout_alignRight="@+id/txtCP"
+        		android:layout_marginTop="8dp"
+        		android:background="@drawable/basurero"
+        		android:onClick="borrarDatos" 
+        		android:visibility="gone" />
+            
+            
+        </RelativeLayout>
+    </ScrollView> 
+     
+     
+
+</RelativeLayout>

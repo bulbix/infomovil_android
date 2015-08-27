@@ -1,0 +1,65 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:fadeScrollbars="false"
+    android:fillViewport="true"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:id="@+id/lblMovilizaSitioWebActual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/txtMovilizaSitio3"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/txtMovilizaSitio4"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/txtMovilizaSitio5"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:id="@+id/lblMovilizaSitio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ico_mail_moviliza"
+            android:drawablePadding="5dip"
+            android:gravity="center_vertical"
+            android:text="@string/txtMovilizaSitio6"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="19sp" />
+    </LinearLayout>
+
+</ScrollView>

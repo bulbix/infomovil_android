@@ -1,0 +1,237 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:fadeScrollbars="false" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:id="@+id/lblEncabezadoPlanPro1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/txtPlanPro1"
+            android:textColor="@color/colorFuenteAzul"
+            android:textSize="17sp" />
+
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:id="@+id/lblEncabezadoPlanPro2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblEncabezadoPlanPro1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/txtPlanPro2"
+            android:textColor="@color/colorFuenteGris"
+            android:textSize="17sp" />
+
+        <TableLayout
+            android:id="@+id/layoutBotonesPlanPro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblEncabezadoPlanPro2"
+            android:layout_marginTop="5dp" >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/planpro_backplan"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/imageUno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/planpro_1mes" />
+
+                <ImageView
+                    android:id="@+id/imageDoce"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/planpro_12meses" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGrisPro"
+                android:gravity="center" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <com.infomovil.infomovil.gui.common.TextWithFont
+                        android:id="@+id/lblPrecioMes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/colorBlanco"
+                        android:textSize="17sp" />
+
+                    <com.infomovil.infomovil.gui.common.TextWithFont
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtXMes"
+                        android:textColor="@color/colorBlanco"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <com.infomovil.infomovil.gui.common.TextWithFont
+                        android:id="@+id/lblPrecioAnual"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/colorBlanco"
+                        android:textSize="17sp" />
+
+                    <com.infomovil.infomovil.gui.common.TextWithFont
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtXMes"
+                        android:textColor="@color/colorBlanco"
+                        android:textSize="17sp" />
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:id="@+id/lblBeneficiosPlanPro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutBotonesPlanPro"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/txtPlanPro3"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblBeneficiosPlanPro"
+            android:layout_marginLeft="50dp"
+            android:orientation="vertical" >
+
+            <com.infomovil.infomovil.gui.common.TextWithFont
+                android:id="@+id/lblMasFuncionalidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/txtMasFuncionalidad"
+                android:textColor="@color/colorFuenteVerde"
+                android:textSize="17sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <com.infomovil.infomovil.gui.common.TextWithFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:drawableLeft="@drawable/ico_pp_movil"
+                    android:drawablePadding="5dip"
+                    android:gravity="center_vertical"
+                    android:text="@string/txtMovilizaSitioPlanPro"
+                    android:textColor="@color/colorGrisClaro"
+                    android:textSize="17sp" />
+
+                <com.infomovil.infomovil.gui.common.TextWithFont
+                    android:id="@+id/lblConoceMas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/txtConoceMas"
+                    android:textColor="@color/colorFuenteVerde"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <com.infomovil.infomovil.gui.common.TextWithFont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/ico_pp_reportes"
+                android:drawablePadding="5dip"
+                android:text="@string/txtMasReportes"
+                android:textColor="@color/colorGrisClaro"
+                android:textSize="17sp" />
+
+            <com.infomovil.infomovil.gui.common.TextWithFont
+                android:id="@+id/lblMasAlmacenamiento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/txtMasAlmacenamiento"
+                android:textColor="@color/colorFuenteVerde"
+                android:textSize="17sp" />
+
+            <com.infomovil.infomovil.gui.common.TextWithFont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/ico_pp_youtube"
+                android:drawablePadding="5dip"
+                android:text="@string/txtAgregaVideo"
+                android:textColor="@color/colorGrisClaro"
+                android:textSize="17sp" />
+
+            <com.infomovil.infomovil.gui.common.TextWithFont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ico_pp_imgcont"
+                android:drawablePadding="5dip"
+                android:text="@string/txtMasImgCont"
+                android:textColor="@color/colorGrisClaro"
+                android:textSize="17sp" />
+
+            <com.infomovil.infomovil.gui.common.TextWithFont
+                android:id="@+id/lblAtencionPremium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/txtAtencionPremium"
+                android:textColor="@color/colorFuenteVerde"
+                android:textSize="17sp" />
+
+            <com.infomovil.infomovil.gui.common.TextWithFont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/ico_pp_soporte"
+                android:drawablePadding="5dip"
+                android:text="@string/txtSoporteTecnico"
+                android:textColor="@color/colorGrisClaro"
+                android:textSize="17sp" />
+
+            <com.infomovil.infomovil.gui.common.TextWithFont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/ico_pp_ads"
+                android:drawablePadding="5dip"
+                android:text="@string/txtSinPublicidad"
+                android:textColor="@color/colorGrisClaro"
+                android:layout_marginBottom="10dp"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="63dip"
+    android:paddingLeft="10dip"
+    android:clickable="false"
+	android:descendantFocusability="blocksDescendants"
+	android:focusable="false"
+	android:focusableInTouchMode="false"
+    android:background="@drawable/rounded_border"
+    android:id="@+id/layout_celda" >
+    
+    <ImageView
+        android:id="@+id/drag_handle"
+    	android:background="@drawable/barraedit"
+    	android:layout_width="40dp"
+        android:layout_height="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true" />
+    
+    <ImageView
+        android:id="@+id/imagenTipo"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="6dp" />
+    
+    <com.infomovil.infomovil.gui.common.TextWithFont 
+        android:id="@+id/labelValorContacto"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imagenTipo"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorFuenteAzul"
+        android:textSize="19sp" />
+    
+    <com.infomovil.infomovil.gui.common.TextWithFont
+        android:id="@+id/labelDescripcionContacto"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelValorContacto"
+        android:layout_toRightOf="@+id/imagenTipo"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:lines="1"
+        android:textColor="@color/colorFuenteVerde"
+        android:textSize="19sp" />
+
+    <ToggleButton
+        android:id="@+id/toggleActivar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:padding="10dp"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/imagenAlert1"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/iconoalert" />
+
+    <com.infomovil.infomovil.gui.common.TextWithFont
+        android:id="@+id/lblInstruccionesContacto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagenAlert1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/txtInstrucciones"
+        android:textColor="@color/colorFuenteVerde"
+        android:textSize="19sp" />
+
+    <com.infomovil.infomovil.gui.common.TextWithFont
+        android:id="@+id/lblContactoEdicionInstruccion1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblInstruccionesContacto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/txtContactoEdicionInstruccion1"
+        android:textColor="@color/colorFuenteVerde"
+        android:textSize="19sp" />
+
+    <com.infomovil.infomovil.gui.common.TextWithFont
+        android:id="@+id/lblContactoEdicionInstruccion2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblContactoEdicionInstruccion1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/txtContactoEdicionInstruccion2"
+        android:textColor="@color/colorFuenteVerde"
+        android:textSize="19sp" />
+
+    <com.infomovil.infomovil.gui.common.TextWithFont
+        android:id="@+id/lblContactoEdicionInstruccion3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblContactoEdicionInstruccion2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:drawableRight="@drawable/barraedit"
+        android:text="@string/txtContactoEdicionInstruccion3"
+        android:textColor="@color/colorFuenteVerde"
+        android:textSize="19sp" />
+
+    <com.infomovil.infomovil.gui.common.TextWithFont
+        android:id="@+id/lblContactoEdicionInstruccion4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblContactoEdicionInstruccion3"
+        android:layout_marginTop="10dp"
+        android:text="@string/txtContactoEdicionInstruccion4"
+        android:textColor="@color/colorFuenteVerde"
+        android:textSize="19sp" />
+
+    <com.infomovil.infomovil.gui.common.ButtonWithFont
+        android:id="@+id/botonAceptar1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/lblContactoEdicionInstruccion4"
+        android:background="@drawable/btnaceptaralert"
+        android:text="@string/txtAceptar"
+        android:textColor="@color/colorFuenteAzul"
+        android:textSize="19sp" />
+
+</RelativeLayout>

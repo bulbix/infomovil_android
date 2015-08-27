@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground" >
+    
+    <ScrollView 
+         android:id="@+id/scrollPromocion" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:fadeScrollbars="false">
+
+         <RelativeLayout
+             android:layout_marginLeft="20dp"
+             android:layout_marginRight="20dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" >
+
+             <com.infomovil.infomovil.gui.common.TextWithFont 
+                 android:id="@+id/labelNombrePromocion"
+            	 android:layout_width="match_parent"
+            	 android:layout_height="25dp"
+            	 android:layout_alignParentTop="true"
+            	 android:layout_centerHorizontal="true"
+            	 android:layout_marginTop="30dp"
+            	 android:text="@string/txtNombrePromocion"
+            	 android:textColor="@color/colorFuenteVerde"
+            	 android:textSize="19sp" />
+             
+             <com.infomovil.infomovil.gui.common.EditTextWithFont
+                 android:id="@+id/txtNombrePromocion"
+                 android:layout_width="match_parent"
+                 android:maxLength="255"
+                 android:paddingLeft="10dp"
+                 android:layout_height="35dp"
+                 android:layout_below="@+id/labelNombrePromocion"
+                 android:layout_marginTop="10dp"
+                 android:inputType="text"
+                 android:layout_centerHorizontal="true"
+                 android:textColor="@color/colorFuenteAzul"
+                 android:textSize="19sp"
+                 android:background="@drawable/rounded_border" /> 
+                 
+             <com.infomovil.infomovil.gui.common.TextWithFont 
+                 android:id="@+id/labelDescripcionPromocion"
+                 android:layout_width="match_parent"
+                 android:layout_height="25dp"
+                 android:layout_below="@+id/txtNombrePromocion"
+                 android:layout_marginTop="30dp"
+                 android:layout_centerHorizontal="true"
+                 android:text="@string/txtDescripcionPromocion"
+                 android:textColor="@color/colorFuenteVerde"
+                 android:textSize="19sp" />
+             
+             <com.infomovil.infomovil.gui.common.EditTextWithFont
+                 android:id="@+id/txtDescripcionPromocion"
+                 android:layout_width="match_parent"
+                 android:maxLength="255"
+                 android:paddingLeft="10dp"
+                 android:layout_height="80dp"
+                 android:layout_below="@+id/labelDescripcionPromocion"
+                 android:layout_marginTop="10dp"
+                 android:layout_centerHorizontal="true"
+                 android:textColor="@color/colorFuenteAzul"
+                 android:textSize="19sp"
+                 android:inputType="textMultiLine"
+                 android:background="@drawable/rounded_border" />
+             
+             <LinearLayout 
+                 android:id="@+id/vistaVigencia"
+                 android:layout_width="match_parent"
+                 android:layout_height="40dp"
+                 android:layout_below="@+id/txtDescripcionPromocion"
+                 android:orientation="horizontal"
+                 android:layout_marginTop="20dp"
+                 android:layout_centerHorizontal="true"
+                 android:background="@drawable/rounded_border" >
+                 
+                 <com.infomovil.infomovil.gui.common.TextWithFont 
+                     android:id="@+id/txtVigencia"
+                     android:layout_weight="5"
+                     android:layout_width="0dp"
+                     android:layout_height="25dp"
+                     android:gravity="center_vertical"  
+                     android:text="@string/txtVigenciaPromocion"
+                     android:textColor="@color/colorFuenteVerde"
+                     android:textSize="19sp" />
+                 
+                 <com.infomovil.infomovil.gui.common.TextWithFont 
+                     android:id="@+id/txtFechaVigencia"
+                     android:freezesText="true"
+                     android:layout_weight="5"
+                     android:layout_width="0dp"
+                     android:layout_height="25dp"
+                     android:gravity="center_vertical"
+                     android:textColor="@color/colorFuenteAzul"
+                     android:textSize="19sp" />
+                 
+             </LinearLayout>
+             
+             <com.infomovil.infomovil.gui.common.TextWithFont 
+                 android:id="@+id/labelImagenPromocion"
+                 android:layout_width="match_parent"
+                 android:layout_height="25dp"
+                 android:layout_below="@+id/vistaVigencia"
+                 android:layout_centerHorizontal="true"
+                 android:layout_marginTop="30dp"
+                 android:text="@string/txtImagenPromocion"
+                 android:textColor="@color/colorFuenteVerde"
+                 android:textSize="19sp" />
+             
+             <com.infomovil.infomovil.gui.widget.TableView 
+                 android:id="@+id/tablaFoto"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_centerHorizontal="true"
+                 android:layout_below="@+id/labelImagenPromocion"
+                 android:layout_marginTop="10dp"
+                 style="@style/UITableView"/> 
+                             
+             <com.infomovil.infomovil.gui.common.TextWithFont 
+                 android:id="@+id/labelComoRedimir"
+                 android:layout_width="match_parent"
+                 android:layout_height="30dp"
+                 android:layout_below="@+id/tablaFoto"
+                 android:layout_marginTop="30dp"
+                 android:layout_centerHorizontal="true"
+                 android:text="@string/txtRedimir"
+                 android:textColor="@color/colorFuenteVerde"
+                 android:textSize="19sp" />
+             
+             <com.infomovil.infomovil.gui.widget.TableView
+                 android:id="@+id/tablaRedencion"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/labelComoRedimir"
+                 android:layout_marginTop="10dp"
+                 android:layout_centerHorizontal="true"
+                 style="@style/UITableView" />
+             
+             <com.infomovil.infomovil.gui.common.TextWithFont 
+                 android:id="@+id/labelInfoAdicional"
+                 android:layout_width="match_parent"
+                 android:layout_height="25dp"
+                 android:layout_below="@+id/tablaRedencion"
+                 android:layout_marginTop="30dp"
+                 android:layout_centerHorizontal="true"
+                 android:text="@string/txtInfoAdicional"
+                 android:textColor="@color/colorFuenteVerde"
+                 android:textSize="19sp" />
+             
+             <com.infomovil.infomovil.gui.common.EditTextWithFont 
+                 android:id="@+id/txtInformacionAdicional"
+                 android:layout_width="match_parent"
+                 android:maxLength="255"
+                 android:paddingLeft="10dp"
+                 android:layout_height="80dp"
+                 android:layout_marginTop="10dp"
+                 android:layout_below="@+id/labelInfoAdicional"
+                 android:layout_centerHorizontal="true"
+                 android:textColor="@color/colorFuenteAzul"
+                 android:textSize="19sp"
+                 android:inputType="textMultiLine"
+                 android:background="@drawable/rounded_border" />
+             
+             <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/colorBackground"
+                android:layout_below="@+id/txtInformacionAdicional" >
+            </RelativeLayout>
+            
+             <Button 
+            android:id="@+id/botonBorrarPromocion"
+            android:layout_width="29dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/txtInformacionAdicional"
+            android:layout_alignRight="@+id/txtInformacionAdicional"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/basurero"
+            android:onClick="borrarDatos" 
+            android:visibility="gone" />
+             
+          </RelativeLayout>
+    </ScrollView>
+    
+    <RelativeLayout
+        android:id="@+id/layoutDatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorBlanco"
+        android:visibility="gone" >
+        
+        <com.infomovil.infomovil.gui.common.ButtonWithFont
+            android:id="@+id/botonAceptarFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/txtAceptar"
+            android:background="@drawable/btnsinoalert"
+            android:textColor="@color/colorFuenteAzul"
+            android:textSize="19sp" />
+
+        <DatePicker
+        android:id="@+id/datePickerPromocion"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true" 
+        android:calendarViewShown="false" />
+    </RelativeLayout>
+    
+    
+
+</RelativeLayout>

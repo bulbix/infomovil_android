@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.infomovil.infomovil.gui.widget.URLImageView
+        android:id="@+id/userVideoThumbImageView"
+        android:layout_margin="10dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp" >
+    </com.infomovil.infomovil.gui.widget.URLImageView>
+    
+    <com.infomovil.infomovil.gui.common.TextWithFont
+        android:id="@+id/userVideoTitleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorNegro"
+        android:layout_below="@+id/userVideoThumbImageView"
+        android:textSize="12sp" />
+
+</RelativeLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground" >
+
+    <RelativeLayout
+        android:id="@+id/layoutDatosPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="40dp" >
+
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:id="@+id/labelTituloSeccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:text="@string/txtTituloProductos"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="19sp" />
+
+        <com.infomovil.infomovil.gui.common.EditTextWithFont
+            android:id="@+id/txtDatosSeccion"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/labelTituloSeccion"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_border"
+            android:maxLength="255"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorFuenteAzul"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/botonBorrarPerfil"
+            android:layout_width="29dp"
+            android:layout_height="35dp"
+            android:layout_alignRight="@+id/txtDatosSeccion"
+            android:layout_below="@+id/txtDatosSeccion"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/basurero"
+            android:onClick="borrarDatos"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutDatosHorario"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:id="@+id/lblDefineHorario"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:text="@string/txtDefineHorario"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="19sp"
+            android:visibility="visible" />
+
+        <ScrollView
+            android:id="@+id/scrollHorarios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblDefineHorario"
+            android:layout_marginTop="15dp"
+            android:fadeScrollbars="false"
+            android:fillViewport="true" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <com.infomovil.infomovil.gui.widget.TableView
+                    android:id="@+id/tablaHorarios"
+                    style="@style/UITableView" />
+
+                <Button
+                    android:id="@+id/botonBorrarHorario"
+                    android:layout_width="29dp"
+                    android:layout_height="35dp"
+                    android:layout_alignRight="@+id/tablaHorarios"
+                    android:layout_below="@+id/tablaHorarios"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/basurero"
+                    android:onClick="borrarDatos"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutPicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone" >
+
+        <com.infomovil.infomovil.gui.common.ButtonWithFont
+            android:id="@+id/btnAceptarHorario"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btnsinoalert"
+            android:onClick="aceptarHorario"
+            android:text="@string/txtAceptar"
+            android:textColor="@color/colorFuenteAzul"
+            android:textSize="19sp" />
+
+        <!-- <LinearLayout -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="200dp" -->
+        <!-- android:layout_below="@+id/btnAceptarHorario" -->
+        <!-- > -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnAceptarHorario"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="20dp" >
+
+            <kankan.wheel.widget.WheelView
+                android:id="@+id/idHoraInicio"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content" />
+
+            <kankan.wheel.widget.WheelView
+                android:id="@+id/idHoraCierre"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content" />
+            <!-- </LinearLayout> -->
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

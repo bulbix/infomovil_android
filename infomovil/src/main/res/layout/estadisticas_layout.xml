@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.infomovil.infomovil"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layoutMenuSuperio"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.infomovil.infomovil.gui.common.ButtonWithFont
+            android:id="@+id/btnVisitantesTotales"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:background="@drawable/btn_morado"
+            android:onClick="cambiarTotales"
+            android:tag="1"
+            android:textColor="@color/colorBlanco"
+            android:textSize="17sp" />
+
+        <com.infomovil.infomovil.gui.common.ButtonWithFont
+            android:id="@+id/btnVisitantesUnicos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:background="@drawable/btn_blanco"
+            android:onClick="cambiarTotales"
+            android:tag="2"
+            android:textColor="@color/colorFuenteAzul"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <mlk.androidchartapi.MlkLinesView
+        android:id="@+id/lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        app:axisColor="@color/colorGris"
+        app:gradientsBottomColor="@color/colorBackground"
+        app:gradientsTopColor="@color/colorBackground"
+        app:labelsColor="@color/colorGris"
+        app:labelsSize="12dp"
+        app:linesColor="#FFFFFF00" />
+
+    <LinearLayout
+        android:id="@+id/layoutPeriodos"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <com.infomovil.infomovil.gui.common.ButtonWithFont
+            android:id="@+id/botonVOp1"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnrepazul"
+            android:onClick="cambiarEstadistica"
+            android:tag="2"
+            android:text="@string/txt1s"
+            android:textColor="@color/colorBlanco"
+            android:textSize="17sp" />
+
+        <com.infomovil.infomovil.gui.common.ButtonWithFont
+            android:id="@+id/botonVOp2"
+            android:layout_width="0dp"
+             android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnrepbln"
+            android:onClick="cambiarEstadistica"
+            android:tag="3"
+            android:text="@string/txt1m"
+            android:textColor="@color/colorFuenteAzul"
+            android:textSize="17sp" />
+
+        <com.infomovil.infomovil.gui.common.ButtonWithFont
+            android:id="@+id/botonVOp3"
+            android:layout_width="0dp"
+             android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnrepbln"
+            android:onClick="cambiarEstadistica"
+            android:tag="4"
+            android:text="@string/txt3m"
+            android:textColor="@color/colorFuenteAzul"
+            android:textSize="17sp" />
+
+        <com.infomovil.infomovil.gui.common.ButtonWithFont
+            android:id="@+id/botonVOp4"
+            android:layout_width="0dp"
+             android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnrepbln"
+            android:onClick="cambiarEstadistica"
+            android:tag="5"
+            android:text="@string/txt6m"
+            android:textColor="@color/colorFuenteAzul"
+            android:textSize="17sp" />
+
+        <com.infomovil.infomovil.gui.common.ButtonWithFont
+            android:id="@+id/botonVOp5"
+            android:layout_width="0dp"
+             android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnrepbln"
+            android:onClick="cambiarEstadistica"
+            android:tag="6"
+            android:text="@string/txt1a"
+            android:textColor="@color/colorFuenteAzul"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+</LinearLayout>

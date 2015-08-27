@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.infomovil.infomovil"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RelativeLayout
+        android:id="@+id/layoutTipsCompartir"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/colorBlanco"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/botonFacebook"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/facebbok"
+            android:onClick="compartirFacebook" />
+
+        <Button
+            android:id="@+id/botonGoogle"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/google"
+            android:onClick="compartirGoogle" />
+
+        <Button
+            android:id="@+id/botonTwitter"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/twitter"
+            android:onClick="compartirTwitter" />
+
+        <Button
+            android:id="@+id/botonEmail"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_below="@+id/botonFacebook"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/email"
+            android:onClick="compartirEmail" />
+
+        <Button
+            android:id="@+id/botonSms"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_below="@+id/botonGoogle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/sms"
+            android:onClick="compartirSms" />
+
+        <Button
+            android:id="@+id/botonWhatsapp"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/botonTwitter"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/whatsapp"
+            android:onClick="compartirWhatsapp" />
+    </RelativeLayout>
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        app:fillColor="@color/colorFuenteVerde"
+        app:pageColor="#bfbfbf"
+        app:radius="7dp"
+        app:strokeColor="#bfbfbf" />
+
+</LinearLayout>

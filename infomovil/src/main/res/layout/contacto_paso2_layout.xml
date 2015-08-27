@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/imagenTipoContacto"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp" />
+
+            <com.infomovil.infomovil.gui.common.TextWithFont
+                android:id="@+id/labelTipoContacto"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/imagenTipoContacto"
+                android:textColor="@color/colorFuenteAzul"
+                android:textSize="19sp" />
+
+            <com.infomovil.infomovil.gui.common.TextWithFont
+                android:id="@+id/labelMensajeContacto"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imagenTipoContacto"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorFuenteVerde"
+                android:textSize="19sp" />
+
+            <RelativeLayout
+                android:id="@+id/layoutSelectorPais"
+                android:layout_width="300dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/labelMensajeContacto"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_border" >
+
+                <com.infomovil.infomovil.gui.common.TextWithFont
+                    android:id="@+id/labelPaisContacto"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/txtPais"
+                    android:textColor="@color/colorFuenteAzul"
+                    android:textSize="19sp" />
+
+                <com.infomovil.infomovil.gui.common.TextWithFont
+                    android:id="@+id/labelCodigoContacto"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/colorFuenteVerde"
+                    android:textSize="19sp" />
+
+                <Button
+                    android:id="@+id/btnSeleccionarPais"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorTransparente"
+                    android:onClick="seleccionarPais" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layoutTextoNumeros"
+                android:layout_width="300dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/layoutSelectorPais"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp" >
+
+                <com.infomovil.infomovil.gui.common.EditTextWithFont
+                    android:id="@+id/txtTelefonoIngresado"
+                    android:singleLine="true"
+                    android:layout_width="300dp"
+                    android:layout_height="35dp"
+                    android:layout_toRightOf="@+id/labelNo1"
+                    android:background="@drawable/rounded_border"
+                    android:inputType="text|textEmailAddress"
+                    android:textColor="@color/colorFuenteAzul"
+                    android:paddingLeft="10dp"
+                    android:textSize="19sp" />
+
+                <com.infomovil.infomovil.gui.common.TextWithFont                    
+   					android:inputType="number"
+                    android:id="@+id/labelNo1"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/rounded_border"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@color/colorFuenteAzul"
+                    android:textSize="19sp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <com.infomovil.infomovil.gui.common.TextWithFont
+                android:id="@+id/labelInfoMexico"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layoutTextoNumeros"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="@string/txtContactoMexico"
+                android:textColor="@color/colorFuenteVerde"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            <com.infomovil.infomovil.gui.common.TextWithFont
+                android:id="@+id/labelDescripcion"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/labelInfoMexico"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="@string/txtDescripcion"
+                android:textColor="@color/colorFuenteVerde"
+                android:textSize="19sp" />
+
+            <com.infomovil.infomovil.gui.common.EditTextWithFont
+                android:id="@+id/textDescripcionContacto"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/labelDescripcion"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_border"
+                android:inputType="textMultiLine"
+                android:maxLength="255"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorFuenteAzul"
+                android:textSize="19sp" />
+
+            <Button
+                android:id="@+id/btnEliminarContacto"
+                android:layout_width="29dp"
+                android:layout_height="35dp"
+                android:layout_alignRight="@+id/textDescripcionContacto"
+                android:layout_below="@+id/textDescripcionContacto"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/basurero"
+                android:onClick="borrarDatos" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

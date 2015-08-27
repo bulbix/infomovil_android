@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.infomovil.infomovil.gui.common.TextWithFont
+        android:id="@+id/labelTituloPantalla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorMorado"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnTemplate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/elegirplantilla"
+        android:onClick="cargarElegirTemplate" />
+
+    <ImageView
+        android:id="@+id/imagenDivision1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/lineamenu" />
+
+    <Button
+        android:id="@+id/btnCrear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/creareditar"
+        android:onClick="cargarMenuCrearQuickStart" />
+
+    <ImageView
+        android:id="@+id/imagenDivision2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/lineamenu" />
+
+    <Button
+        android:id="@+id/btnNombrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/nombrarpublicar"
+        android:onClick="cargarNombrar" />
+
+    <ImageView
+        android:id="@+id/imagenDivision3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/lineamenu" />
+
+    <Button
+        android:id="@+id/btnAgregarMasContenido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/agregarmas"
+        android:onClick="cargarMenuCrear" />
+
+    <LinearLayout
+        android:id="@+id/layoutBotones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.infomovil.infomovil.gui.common.ButtonWithFont
+            android:id="@+id/btnVerTutorial"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnverejemplomorado"
+            android:onClick="verTutorial"
+            android:text="@string/txtVerTutorial"
+            android:textColor="@color/colorBlanco"
+            android:textSize="19sp" />
+
+        <com.infomovil.infomovil.gui.common.ButtonWithFont
+            android:id="@+id/btnVerEjemplo1"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnverejemplomorado"
+            android:gravity="center"
+            android:onClick="verEjemplo"
+            android:text="@string/txtVerEjemplo"
+            android:textColor="@color/colorBlanco"
+            android:textSize="19sp" />
+    </LinearLayout>
+
+</LinearLayout>

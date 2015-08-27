@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackground">#EDE5E2</color>
+    <color name="colorFuenteAzul">#3C4A97</color>
+    <color name="colorFuenteVerde">#2FA399</color>
+    <color name="colorFuenteVerde2">#9efff7</color>
+    <color name="colorFuenteGris">#666666</color>
+    <color name="colorBlanco">#ffffff</color>
+    <color name="colorRojo">#ff0000</color>
+    <color name="colorTransparente">#00000000</color>
+    <color name="colorNegro">#000000</color>
+    <color name="colorGris">#585858</color>
+    <color name="colorMorado">#5C62C9</color>
+    <color name="colorGrisPro">#666666</color>
+    <color name="colorGrisClaro">#999999</color>
+     
+    <!-- LIST BORDER COLOR -->
+	<color name="rounded_container_border">#EDE5E2</color>
+
+	<!-- ITEM BACKGROUND COLOR - STATE - DEFAULT -->
+	<color name="base_start_color_default">#FFFFFF</color>
+    <color name="base_end_color_default">#FFFFFF</color>
+    	
+	<!-- ITEM BACKGROUND COLOR - STATE - PRESSED -->
+	<color name="base_start_color_pressed">#ff3590c4</color>
+    <color name="base_end_color_pressed">#ff2570ba</color>
+    
+    <!-- ITEM TEXT COLORS - STATES - PRESSED AND DEFAULT -->
+    <color name="text_color_default">#000000</color>
+    <color name="text_color_pressed">#ffffff</color>
+</resources>

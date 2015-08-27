@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:fadeScrollbars="false" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/layoutBotonesCuenta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <com.infomovil.infomovil.gui.common.ButtonWithFont
+                    android:id="@+id/btnPlanPro"
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_morado"
+                    android:onClick="cambiarplan"
+                    android:tag="1"
+                    android:text="@string/txtCuenta"
+                    android:textColor="@color/colorBlanco"
+                    android:textSize="17sp" />
+
+                <com.infomovil.infomovil.gui.common.ButtonWithFont
+                    android:id="@+id/btnDominio"
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_blanco"
+                    android:onClick="cambiarplan"
+                    android:tag="2"
+                    android:text="@string/txtDominio"
+                    android:textColor="@color/colorFuenteAzul"
+                    android:textSize="17sp" />
+
+                <com.infomovil.infomovil.gui.common.ButtonWithFont
+                    android:id="@+id/btnPromocion"
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_blanco"
+                    android:onClick="cambiarplan"
+                    android:tag="3"
+                    android:text="@string/txtPromocion"
+                    android:textColor="@color/colorFuenteAzul"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <fragment
+                android:id="@+id/fragment_planpro"
+                android:name="com.infomovil.infomovil.menu.CuentaActivity$PlanProFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layoutBotonesCuenta"
+                android:layout_centerHorizontal="true" />
+
+            <fragment
+                android:id="@+id/fragment_dominio"
+                android:name="com.infomovil.infomovil.menu.CuentaActivity$DominiFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layoutBotonesCuenta"
+                android:layout_centerHorizontal="true" />
+            
+            <fragment
+                android:id="@+id/fragment_codigopromocion"
+                android:name="com.infomovil.infomovil.menu.CuentaActivity$RedimeFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layoutBotonesCuenta"
+                android:layout_centerHorizontal="true" />
+
+            <fragment
+                android:id="@+id/fragment_leyendacuenta"
+                android:name="com.infomovil.infomovil.menu.CuentaActivity$LeyendaCuentaFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layoutBotonesCuenta"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

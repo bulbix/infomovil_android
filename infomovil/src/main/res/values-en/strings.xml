@@ -1,0 +1,589 @@
+<resources>
+
+    <string name="app_name">Infomovil QA</string>
+
+    <!-- Titulos de las vistas -->
+    <string name="strLanguage">en</string>
+    <string name="tituloMexicoAcento">México</string>
+    <string name="tituloMexico">Mexico</string>
+    <string name="tituloPrincipal">Create your website</string>
+    <string name="txtPromociones">Promotions</string>
+    <string name="txtColorFondo">Background colour</string>
+    <string name="txtElegirTemplate">1. Choose style</string>
+    <string name="txtRegistro">Create an account</string>
+    <string name="txtNombreoEmpresa">Name or Company</string>
+    <string name="txtDescripcionCortaTitulo">Short description</string>
+    <string name="txtLogo">Logo</string>
+    <string name="txtContacto">Contact</string>
+    <string name="txtTipoContacto">Contact type</string>
+    <string name="txtImagenesTitulo">Images</string>
+    <string name="txtMapaTitutlo">Map</string>
+    <string name="txtPerfilTitulo">Profile</string>
+    <string name="txtPerfilDescTitulo">Profile and description</string>
+    <string name="txtTipTitutlo">Tips</string>
+    <string name="txtGaleriaImagenesTitulo">Image gallery</string>
+    <string name="txtNombreoEmpresa2">Nombre o Empresa</string>
+    <string name="txtLogo2">Logo</string>
+    <string name="txtDescripcionCortaTitulo2">Descripción corta</string>
+    <string name="txtContacto2">Contacto</string>
+    <string name="txtMapaTitutlo2">Mapa</string>
+    <string name="txtTituloVideo2">Video</string>
+    <string name="txtPromociones2">Promociones</string>
+    <string name="txtGaleriaImagenesTitulo2">Galería de imágenes</string>
+    <string name="txtPerfilTitulo2">Perfil</string>
+    <string name="txtTituloDireccion2">Dirección</string>
+    <string name="txtInfoAdicional2">Información adicional</string>
+    <string name="negocioProfesion2">Negocio | Profesión</string>
+
+    <!-- Validado -->
+    <string name="action_settings">Delete account</string>
+    <string name="iniciarSesion">Log in</string>
+    <string name="iniciarSesionFacebook">Log in with Facebook</string>
+    <string name="tienesCuenta">Already have an account?</string>
+    <string name="txtCrea">Create and Edit</string>
+    <string name="txtNombrar">Name Publish</string>
+    <string name="bullet"></string>
+    <string name="txtCondiciones1">By continuing, you accept the</string>
+    <string name="txtCondiciones2">Terms &amp; Conditions,</string>
+    <string name="txtCondiciones3">and</string>
+    <string name="txtCondiciones4">the Privacy Policy</string>
+    <string name="txtCondiciones5">of Infomovil</string>
+
+    <!-- Validado -->
+
+
+    <!-- Crear Editar -->
+    <string name="txtAgregarNombre">Add your company name</string>
+    <string name="txtDescripcionCorta">Add a short description of your company</string>
+    <string name="txtTomarFoto">Take a photo</string>
+    <string name="txtUsarFoto">Use existing photo</string>
+
+    <!-- Validado -->
+
+    <string name="txtNombrePromocion">Promotion name</string>
+    <string name="txtDescripcionPromocion">Promotion description</string>
+    <string name="txtVigenciaPromocion">Valid until</string>
+    <string name="txtImagenPromocion">Image</string>
+    <string name="txtSinFoto">No photo</string>
+    <string name="txtRedimir">How to redeem?</string>
+    <string name="txtNoEspecificado">Not specified</string>
+    <string name="txtLlamanos">Call us</string>
+    <string name="txtEnviaEmail">E-mail us</string>
+    <string name="txtVisitanos">Visit us</string>
+    <string name="txtInfoAdicional">Additional information</string>
+    <string name="txtVacio"></string>
+    <string name="txtNoEspecificadoEs">No especificado</string>
+    <string name="txtLlamanosEs">Llámanos</string>
+    <string name="txtEnviaEmailEs">Envíanos un e-mail</string>
+    <string name="txtVisitanosEs">Visítanos</string>
+
+    <!-- Validado -->
+
+    <string name="txtDireccionCorreo">E-mail </string>
+    <string name="txtPassLogin">Password</string>
+    <string name="txtOlvidarPass">Forgot your password?</string>
+
+    <!-- Validado -->
+
+    <string name="txtBuscarYoutube">Search for a video in YouTube</string>
+    <string name="txtSeleccionaVideo">Add a YouTube video</string>
+    <string name="txtURLVideo">Search by keyword or add the exact address here:</string>
+    <string name="txtTituloVideo">Video</string>
+    <string name="txtBuscarVideo">Search for video</string>
+    <string name="txtDatosVideo">Video Data</string>
+
+    <!-- Validado -->
+
+
+    <!-- Contactos Paso 1 -->
+    <string name="txtAgregaContacto1">Add your contact information:</string>
+    <string name="txtAgregaContacto2">Add more contacts</string>
+    
+    
+    <string name="txtPrimerNumero">Add a phone number</string>
+    <string name="txtPrimerEmail">Add an e-mail</string>
+    <string name="txtDatosWeb">These contacts are used in the large contact buttons on the mobile version of your website.</string>
+    <string name="txtPlanProContactos">With a Pro Plan, you can add additional contacts.</string>
+    <string name="txtContactoMexico">Remember that to receive international calls the format is (1) XXX-XXX-XXX (10 digits)</string>
+
+    <!-- Validado -->
+
+	<!-- Galeria Paso 1 -->
+	<string name="txtMaxImagenes1">Basic plan: Add up to 5 images.\nUpgrade to Plan Pro to add more.</string>
+    <string name="txtMaxImagenes2">Upload some images to make your website more attractive</string>
+
+
+    <string name="txtImagenesVertical">These images will be displayed vertically</string>
+    <string name="txtImagenRedimensiona">Images will be resized automatically</string>
+
+    <!-- Galeria Paso 2 -->
+    <string name="txtTituloFoto">Image name</string>
+    <string name="txtAddImage">Add images</string>
+
+    <!-- Validado -->
+
+
+    <!-- Perfil Paso 2 -->
+    <string name="txtTituloProductos">Describe your products and services</string>
+    <string name="txtTituloAreas">Geographical area of service</string>
+    <string name="txtTituloHorario">For each day, select your opening hours.</string>
+    <string name="txtTituloMediosPago">Payment methods</string>
+    <string name="txtTituloAsociaciones">Add details of memberships or associations you belong to</string>
+    <string name="txtTituloBiografia">What else would you like to share?</string>
+    <string name="txt"></string>
+
+    <!-- Pantalla direccion -->
+    <string name="txtTituloDireccion">Address</string>
+    <string name="textoDireccion1">Address 1</string>
+    <string name="textoDireccion2">Address 2</string>
+    <string name="textoDireccion3">Address 3</string>
+    <string name="textoCiudad">City</string>
+    <string name="textoEstado">State</string>
+    <string name="textoCP">Postcode / Zip code</string>
+    <string name="textoNombrePublicar1">Name:</string>
+    <string name="txtNombrePublicar2">Administrative contact:</string>
+    <string name="textoPubliDireccion1">Address 1:</string>
+    <string name="textoPubliDireccion2">Address 2:</string>
+    <string name="textoPubliCountry">Country:</string>
+    <string name="txtLlenarNombre">What\'s your name?</string>
+    <string name="txtLlenarDireccion">What\'s your address?</string>
+    <string name="txtLlenarCorreo">What\'s your email address?</string>
+
+    <!-- Informacion adicional -->
+    <string name="txtTituloInfoAdicional">Additional information</string>
+    
+    <string name="txtAgregaInfoAdicional1">Add additional information about you or your business</string>
+    <string name="txtAgregaInfoAdicional2">Add more information to your website to your customers and stand out from the competition</string>
+
+    <string name="txtAgregaBasicoInfoAdicional">You can add 1 paragraphs of 400 characters each</string>
+    <string name="txtAgregarTitulo">Add a title</string>
+    <string name="txtAddInfo">Add information</string>
+    <string name="mensajeInformacionAdicionalPrueba">Upgrade to our Pro Plan and to add more content. Would you like to learn more?</string>
+
+    <!-- Formulario Nombrar -->
+
+    <string name="txtRegistroFormulario">You\'re almost ready to get online.\nPlease create an account with your e-mail and password.</string>
+    <string name="txtEmail">E-mail</string>
+    <string name="txtPassword">Password</string>
+    <string name="txtConfirmPassword">Confirm password</string>
+    <string name="txtPais">Country</string>
+    <string name="txtMovil">Mobile number</string>
+    <string name="txtRegistrate">Register</string>
+    <string name="infoPassword">Password must be 8 or more characters\n(letters and numbers)\nCan not contain the word Infomovil</string>
+    <string name="infoRedimir">Blank if no campaing</string>
+    <string name="infoPasswordTamano">8 or more characters\n(letters and numbers)</string>
+    <string name="infoPasswordInfomovil">Password can not contain the word Infomovil</string>
+    <string name="infoPasswordCorreo">Password can not be equal to e-mail</string>
+
+    <!-- Nombrar Activity -->
+    <string name="txtInfoValida"></string>
+    <string name="txtTerminarProceso">Name your website</string>
+    <string name="txtMisitio">misitio</string>
+    <string name="txtNombrarTitulo">3. Name | Publish</string>
+    <string name="txtEjemDominio">www.misitio.tel</string>
+
+    <!-- Publicar Activity -->
+    <string name="txtConfirmalo">Register!</string>
+    <string name="txtPublicar">Publish your site!</string>
+
+    <!-- Compartir activity -->
+    <string name="txtFelicidadesTitulo">Congratulations!</string>
+    <string name="txtFelicidades">Your website has been registered!</string>
+    <string name="txtEnLinea">It might take a few minutes before you can see it online.</string>
+    <string name="txtRenova">Renewal Date:</string>
+    <string name="txtComparteSitio">Once it\'s online, share it with your friends and contacts.</string>
+    <string name="txtTituloCompartir">Share it with everyone!</string>
+    <string name="txtComparte">I just created a website with www.infomovil.com\nCheck it out and help us grow!\u0020</string>
+    <string name="txtComparteTwitter">I just created a website with infomovil.com. Check it out and help us grow!\u0020</string>
+
+    <!-- Para el Alert -->
+    <string name="txtSi">Yes</string>
+    <string name="txtNo">No</string>
+    <string name="txtAceptar">Accept</string>
+    <string name="txtCancelar">Cancel </string>
+    <string name="txtCargando">Loading</string>
+    <string name="txtPreguntaSalir">Save changes before exiting?</string>
+    <string name="txtPreguntaCerrar">Are you sure you want to exit?\nYou will need to re-enter your username and password</string>
+    <string name="txtErrorName">Invalid e-mail\nThis e-mail address is already associated with another account</string>
+    <string name="txtErrorDomain">Error!\n Check your domain</string>
+    <string name="txtErrorDomainNombrar">This domain is not available, please try another one</string>
+    <string name="txtVerificaDomain">The domain is not valid</string>
+    <string name="txtActualizacionCorrecta">The update was successful</string>
+    <string name="txtErrorActualizacion">Sorry, there was an error with the update</string>
+    <string name="txtNoConexion">Oops. It look’s like there’s a problem with your internet conntection. Please check it and try again.</string>
+    <string name="txtErrorGenerico">Oops. It look’s like there’s a problem with your internet. Please check it and try again.</string>
+    <string name="txtErrorGenericoPublicacion">Your domain could not be published, please try again</string>
+    <string name="txtErrorGenericoEmail">The e-mail or password is not correct.</string>
+    <string name="txtPreguntaVideo">Upgrade to our Pro Plan to add a YouTube video to your website. Would you like to learn more?</string>
+    <string name="mensajeContactosPrueba">Upgrade to our Pro Plan to add more contacts. Would you like to learn more?</string>
+    <string name="mensajeImagenesPrueba">Upgrade to our Pro Plan to add more images. Would you like to learn more?</string>
+    <string name="mensajeVideoPrueba">Upgrade to our Pro Plan to add video. Would you like to learn more?</string>
+    <string name="mensajeNoingresaInfo">You must enter information before updating</string>
+ <!-- VALIDAR CON SAM -->
+    <string name="txtDescripcion">Description</string>
+    <string name="mensajeNodesc">Please enter a description</string>
+    <string name="mensajeNotitle">Enter a title</string>
+    <string name="mensajeNoVigen">Please define a validity period</string>
+    <string name="mensajeVigenFechaMenorActual">The expiration date must be in the future!</string>
+    <string name="mensajeNoRem">Please indicate how users redeem the promotion</string>
+    <string name="mensajeProcesoPublicacion">This domain is being processed. Click the Account tab to check its status.</string>
+    <string name="action_search">Search</string>
+    <string name="search_hint">Loading location</string>
+    <string name="search_settings">Search Location</string>
+    <string name="menu_compartir_titulo">Congratulations!</string>
+    <string name="menu_compartir_label1">I\'m online with infomovil.com \n Visit my new website at:\n\n</string>
+    <string name="txtPreguntarEliminarUbicacion">Are you sure you want to delete your address?</string>
+    <string name="txtInfoCambiarUbicacion">This will remove the old location and mark a new one</string>
+    <string name="txtReportes">Reports</string>
+    <string name="txt1s">1W</string>
+    <string name="txt1m">1M</string>
+    <string name="txt3m">3M</string>
+    <string name="txt6m">6M</string>
+    <string name="txt1a">1Y</string>
+    <string name="txtPeriodoTiempo">Period</string>
+    <string name="preguntaEstadisticas">This is a Pro Plan feature.  Would you like to learn more?</string>
+    <string name="txtVisitasTotales">Total Visits</string>
+    <string name="txtVisitantesUnicos">Unique Visits</string>
+    <string name="txtTip1">
+<![CDATA[      
+        <p style="color:#47ada4;text-align:center">Take care with the details and test your site</p>
+        <ol style="color:#3C4A97;line-height:1.5em">
+        	<li>Be careful to avoid making typos.</li>
+        	<li>Test your site: <a style="text-decoration:none; color:#5C62C9; font-weight:bold" href="http://%1$s">%1$s</a> 
+        		<ul>
+	        		<li>Open a browser</li>
+	        		<li>Test the contact buttons (call, e-mail)</li>
+	        		<li>Check all your text</li>
+        		</ul>
+        	</li>        	
+       	</ol>
+       	]]>
+    </string>
+    <string name="txtCuenta">Pro Plan</string>
+    <string name="txtDominio">Domain</string>
+    <string name="txtFechaInicio">Start Date: </string>
+    <string name="txtFechaFin">End Date: </string>
+    <string name="txtTip2">
+<![CDATA[
+        <p style="color:#47ada4;text-align:center">Use video!</p>
+        <ul style="color:#3C4A97;line-height:1.5em">
+           <li>Most people love watching videos</li>
+           <li>Record a short video with your 
+           	   smartphone to describe 
+           	   your products and services
+           </li>
+           <li>Upload it to YouTube</li>
+           <li>Link it with your website</li>
+        </ul>
+        ]]>
+    </string>
+    <string name="txtTip3">
+<![CDATA[
+        <p style="color:#47ada4;text-align:center">Refresh your content</p>
+        <ul style="color:#3C4A97;line-height:1.5em">
+            <li>Update your promotions and delete 
+            	outdated information</li>
+            <li>Upload new images every few weeks</li>
+            <li>Fill out all content fields</li>
+        </ul>
+        ]]>
+    </string>
+    <string name="txtTip4">
+<![CDATA[
+    	 <p style="color:#47ada4;text-align:center">Share your site with everyone you know!</p>
+    	 <p style="color:#3C4A97;line-height:1.5em;text-align:center">Share your site with all your friends and contacts</p>
+    	   ]]>
+    </string>
+    <string name="estoyLinea">I\'m online with infomovil.com Visit my new website at:</string>
+    <string name="noWhatsapp">We can\'t send a WhatsApp message from this device.</string>
+    <string name="configuracionCorreo">No e-mail account has been configured on this device</string>
+
+    <!-- Configuracion activity -->
+    <string name="txtTituloConfiguracion">Settings</string>
+    <string name="txtTituloConfiguracionElimina">Delete account</string>
+    
+    <string name="eliminarLabel2">Enter your password</string>
+    <string name="eliminarLabel3">Specify</string>
+
+    <!-- Cuenta Activity -->
+    <string name="mensajeCuenta">Pro Plan Features</string>
+    <string name="labelProximamente">Coming soon!</string>
+    <string name="mensajeDominio">Coming soon!  Purchase your own .tel domain.\n\n\n\n</string>
+    <string name="datosBasicos">Include a YouTube video</string>
+    <string name="numeroImagenes">Add up more images</string>
+    <string name="numeroContactos">Add up to 10 contacts</string>
+    <string name="numeroInformacion">Two extra sections of additional information</string>
+    <string name="numeroEstadisticas">Enhanced reports</string>
+    <string name="noAds">Remove infomovil branding</string>
+    <string name="soporte">Professional support</string>
+    <string name="txtTitleCuenta">Account</string>
+
+    <!-- Configuracion Activity -->
+    <string name="cambioPassword">Change password</string>
+    <string name="eliminaCuenta">Delete account</string>
+    <string name="salirCuenta">Sign out</string>
+    <string name="soportaEmail">E-mail support</string>
+    <string name="version">Version</string>
+    <string name="mensajeContrasenia">This process will send an e-mail with instructions on how to change your password</string>
+
+    <!-- Validacion contacto -->
+    <string name="numeroInvalido">Invalid number</string>
+    <string name="seleccionaPais">Select your country code</string>
+    <string name="emailInvalido">Invalid e-mail</string>
+    <string name="urlInvalida">Invalid URL</string>
+    <string name="passwordInvalido">Please check your password</string>
+    <string name="txtTituloPaso1Contacto">Click on a contact to edit the data</string>
+    <string name="cambiarPassLabel1">Enter your e-mail and we will send you a link to reset your password</string>
+    <string name="cambiarPassLabel2">We\'ve sent you an e-mail with instructions to change your password</string>
+
+    <!-- Titulos Perfil -->
+    <string name="productoServicio">Products / Services</string>
+    <string name="areaServicio">Areas of service</string>
+    <string name="horario">Opening hours</string>
+    <string name="metodosPago">Payment methods</string>
+    <string name="asociaciones">Associations</string>
+    <string name="biografia">About us</string>
+    <string name="negocioProfesion">Business | Profession</string>
+    <string name="describeProductos">Describe your products and services</string>
+    <string name="areaGeografica">Geographical area of service</string>
+    <string name="formasPago">Payment methods</string>
+    <string name="miembroAsociacion">Add details of memberships or associations you belong to</string>
+    <string name="queMasQuiere">About us</string>
+    <string name="txtTerminos">Terms</string>
+    <string name="txtPoliticas">Privacy Conditions</string>
+    <string name="eligeColor">You must first choose a style</string>
+    <string name="editaPagina">You must first edit your page</string>
+
+    <!-- Vista Previa -->
+    <string name="tituloVistaPrevia">Preview</string>
+    <string name="tituloEjemplo">Example</string>
+    <string name="msgActivarGPS">The geolocation services are disabled</string>
+    <string name="txtNombrePub">Name:</string>
+
+    <!-- Mensajes para los alert -->
+    <string name="msgGuardarColor">Updating Colour</string>
+    <string name="msgGuardarContacto">Updating Contact</string>
+    <string name="msgGuardarDescripcion">Updating Description</string>
+    <string name="msgGuardarDireccion">Updating Address</string>
+    <string name="msgGuardarImagen">Updating Image</string>
+    <string name="msgGuardarInfoAd">Updating Additional Information</string>
+    <string name="msgGuardarLogo">Updating Logo</string>
+    <string name="msgGuardarMapa">Updating Map</string>
+    <string name="msgGuardarVideo">Updating Video</string>
+    <string name="msgGuardarNombre">Updating Name</string>
+    <string name="msgGuardarPerfil">Updating Profile</string>
+    <string name="msgGuardarPromocion">Updating Offert</string>
+    <string name="msgNombrarSitio">Naming Site</string>
+    <string name="msgBuscandoUsuario">Verifying User</string>
+    <string name="msgPublicando">Publishing</string>
+    <string name="msgValidandoUsuario">Validating Credentials</string>
+    <string name="msgRecuperaPass">Sending e-mail</string>
+    <string name="msgEliminandoCuenta">Deleting Account</string>
+    <string name="msgObtieneEstad">Obtaining Statistics</string>
+    <string name="faltaTituloInfoAdicional">You must add a title to each Additional information section</string>
+    <string name="faltaDesInfoAdicional">You must add a description to each Additional information section</string>
+    <string name="tituloDuplicadoInfoAdicional">Duplicate title in the additional information</string>
+    <string name="msgCaducaSesion">Your session has expired. Please log-in again</string>
+    <string name="msgMismaSesion">Your session is being used by another device</string>
+    <string name="msgEliminarDatos">Are you sure you want to delete the data?</string>
+    <string name="msgBorrarImagen">Delete this image?</string>
+    <string name="msgEliminarImagen">You must first remove the picture</string>
+    <string name="msgPasswordDif">The passwords don\'t match</string>
+    <string name="passDebe">The password must be\n </string>
+    <string name="verificaEmail">Please enter a valid e-mail address\nExample info@infomovil.com</string>
+    <string name="verificaDatosFormulario">Error!\nYou need to fill in all the fields</string>
+    <string name="txtDefineHorario">For each day, select your opening hours.</string>
+    <string name="txtAlertaPlubicar">Congratulations! You\'ve successfully named your website.</string>
+    <string name="txtNoExisteUsuario">¡Error!\nThe e-mail or password is not correct.</string>
+    <string name="txtTelDisponible">is available</string>
+    <string name="txtTitulo">Title</string>
+    <string name="txtChecaSitio">Check out our website</string>
+    <string name="crash_toast_text">Ooooops ! I crashed, but a report has been sent to infomovil to help fix the issue !</string>
+    <string name="txtValidacionDatos">Incomplete data</string>
+    <string name="horarioLun">Mon</string>
+    <string name="horarioMar">Thu</string>
+    <string name="horarioMie">Wen</string>
+    <string name="horarioJue">Tue</string>
+    <string name="horarioVie">Fri</string>
+    <string name="horarioSab">Sat</string>
+    <string name="horarioDom">Sun</string>
+    <string name="horarioMieEsp">Mié</string>
+    <string name="horarioMie2Esp">Mier</string>
+    <string name="horarioMie3Esp">Mie</string>
+    <string name="horarioSabEsp">Sáb</string>
+    <string name="horarioSab2Esp">Sab</string>
+    <string name="correo">Send us your feedback</string>
+    <string name="txtUbicanos">Find us</string>
+    <string name="txtContactnos">Contact us</string>
+    <string name="txtUbicacion">Location</string>
+    <string name="txtVigencia">Valid until:</string>
+    <string name="txtComoRedimir">How to redeem:</string>
+    <string name="txtGaleriaWeb">Gallery</string>
+    <!-- Check your domain -->
+    <string name="txtMensajeErrorColor">You must choose a colour</string>
+    <string name="txtMensajeErrorImagen">You must choose an image</string>
+    <string name="txtMensajeErrorPerfil">Enter desired text</string>
+    <string name="txtMensajeErrorHorario">Enter opening hours</string>
+    <string name="txtCaracteresEspeciales">No special characters are allowed</string>
+    <string name="txtDominioTest1">Coming soon!  Purchase your own .tel domain.\n\n\n\n</string>
+    <string name="txtUsuarioNoEncontrado">User not found</string>
+    <string name="txtCerrarBackground">Your session has been closed,please log in again</string>
+    <string name="txtMsjSessionActiva">You already have a session open. To open a new one on this device, we need to close the current session.</string>
+    <string name="txtWWW">www.</string>
+    <string name="txtTel">.tel</string>
+    <string name="txtProcesoPub">Your site is being published</string>
+    <string name="txtObteniendoDominio">Getting domain information</string>
+    <string name="txtCerrarAlert">Closing session</string>
+    <string name="txtErrorPassword">Wrong Password</string>
+    <string name="txtCuentaCancelada">The account has been cancelled</string>
+    <string name="txtErrorLogin">Sorry, there\'s an error. Please try again.</string>
+    <string name="txtCargandoDefault">Loading...</string>
+    <string name="txtEstadisticasMenu">Reports</string>
+    <string name="txtCompartirMenu">Share</string>
+    <string name="txtCuentaMenu">Account</string>
+    <string name="txtConfiguracionMenu">Settings</string>
+    <string name="txtNoticiasMenu">News</string>
+    <string name="txtWWWGeneral">www.</string>
+    <string name="txtTelGeneral">.tel</string>
+    <string name="txtSeguir">Continue</string>
+    <string name="txtErrorImagen">Your image could not be loaded. Please try another</string>
+
+    <!-- Contactos Edicion Instrucciones -->
+    <string name="txtContactoEdicionInstruccion1">Click on a contact to edit the data.</string>
+    <string name="txtContactoEdicionInstruccion2">Select \"On\" to display the contact on your website</string>
+    <string name="txtContactoEdicionInstruccion3">To reorder a contact, select </string>
+    <string name="txtContactoEdicionInstruccion4"> and move the contact up or down.</string>
+    <string name="txtInstrucciones">Instructions</string>
+    <string name="txtTabDominioEnTramite">When you publish your website, we offer you a unique and memorable domain:\n\nwww.mysite.tel</string>
+    <string name="txtQuieroMiPlanPro">I want my Pro Plan!</string>
+    <string name="txtRedimirCodigo">Channel campaign</string>
+    <string name="txtRedimir1">Redeem</string>
+    <string name="txtCuentaPro">This site already has a Plan Pro</string>
+    <string name="mensajeContactosPro">You\'ve reached the maximum number of contacts</string>
+    <string name="mensajeImagenesPro">You\'ve reached the maximum number of images</string>
+    <string name="mensajeInformacionPro">You\'ve added the maximum amount of Additional information sections</string>
+    <string name="errorCodigo1">The code is not associated with any campaign.</string>
+    <string name="error999">The campaign is not active.</string>
+    <string name="errorCodigo2">The code has already expired.</string>
+    <string name="errorCodigo5">The account has already been associated with a campaign.</string>
+    <string name="errorCodigo7">The code is not valid for this account.</string>
+    <string name="errorCodigo8">The account was already enabled.</string>
+    <string name="errorCodigo13">The account already has Pro Plan.</string>
+    
+    <string name="errorCampanaGen">An error occurred when redeeming the code</string>
+    <string name="errorCodigo6">This code has already been redeemed</string>
+    <string name="txtInitMapa">Press to select the location</string>
+    <string name="txtVerEjemplo">Example</string>
+    <string name="txtInicioRapido">Quick start</string>
+    <string name="txtDescripcionInicioRapido">Add your data, pick a name and get online fast! Estimated time: 5 mins</string>
+    <string name="txtErrorInicioRapido">Complete all the fields!</string>
+    <string name="facebook_app_id">346859792130678</string>
+
+    <!-- <string name="txtRegistroFacebook">Or register using:</string> -->
+    <string name="txtCuentaExiste">The e-mail of %1$s is already registered. Do you want to continue?</string>
+    <string name="txtCuentaNoExiste">This account doesn’t exist. Do you want to create it?</string>
+    <string name="txtRecordarCuenta">&#160;Remember my account</string>
+
+    <!-- Textos para el preregistro -->
+    <string name="txtOr">&#160;&#160;or&#160;&#160;</string>
+    <string name="txtCrearCuenta">Create an account</string>
+    <string name="txtRegistroFacebook">Register using Facebook</string>
+    <string name="txtPermisoFacebook">We\'ll never post to your wall without your permission.</string>
+    <string name="txtVerTutorial">Watch Tutorial</string>
+    <string name="txtCodigoAsociado">To activate your Pro Plan enter the code you received in the e-mail, but accounts with e-mail us at ops@infomovil.com and you will get</string>
+    <string name="txtActivar">Activate</string>
+    <string name="txtSaltar">Skip</string>
+    <string name="txtComprar">Purchase</string>
+    <string name="txtSeleccionaPlanPro">Choose your Plan Pro</string>
+    <string name="txtRenombrarRecurso">Rename resource</string>
+    <string name="txtFechasVigencia">Effective dates</string>
+    <string name="txtDominiosDisponibles">Available domains</string>
+    <string name="txtInfoDowngrade">Your account is no longer Pro, go to menu account to purchase again</string>
+    <string name="txtErrorCompra">Your connection is not available, login to activate your purchase.</string>
+    <string name="txtPlanPro1">Create a professional image.</string>
+    <string name="txtPlanPro2">Choose your plan and improve your website:</string>
+    <string name="txtPlanPro3">PRO PLAN BENEFITS</string>
+    <string name="txtConoceMas">Learn more</string>
+    <string name="msgValidandoVersion">Validating Version</string>
+    <string name="msgNuevaActualizacion">New Update</string>
+    <string name="msgNuevaVersion">A new version please update</string>
+    <string name="msgCompartirSinPublicar">In order to share your website you must publish it first. Would you like to publish it now?</string>
+     <string name="msgReportesSinPublicar">To view reports your website you must publish it first. Would you like to publish it now?</string>
+    <string name="msgDominioSinPublicar">Publish your website</string>
+    <string name="msgDominioYaPublicado">Your domain has already been published</string>
+    <string name="txtEditaSitio">Edit your website</string>
+    <string name="txtSinCuenta">Don\'t have an Account?</string>
+    <string name="txtRegistrate2">Register</string>
+    <string name="txtEstiloDivertido">Fun</string>
+    <string name="txtEstiloClasico">Classic</string>
+    <string name="txtEstiloCreativo">Creative</string>
+    <string name="txtEstiloModerno">Modern</string>
+    <string name="txtEstiloEstandar">Standard</string>
+    <string name="txtEstiloPortadaAzul">Blue Cover</string>
+    
+    <string name="txtDescEstiloDivertido">Popular style for restaurants, pizzerias, taquerías, clubs, bars, etc.</string>
+    <string name="txtDescEstiloClasico">Popular style for formal events, weddings, lawyers, professionals, etc.</string>
+    <string name="txtDescEstiloCreativo">Popular style for creatives, musicians, students, photographers, agencies, designers, artists, etc.</string>
+    <string name="txtDescEstiloModerno">Popular style for technology companies, freelancers, distributors of electronic products, etc.</string>
+    <string name="txtDescEstiloEstandar">Popular style for general products and services</string>
+    <string name="txtDescEstiloPortadaAzul">Only the following fields area available for this template:\n-Name or Company\n-Contacts\n-Short description</string>
+    
+    <string name="txt2CrearEditar">2. Create | Edit</string>
+    <string name="txtMapaTituloOpcional">Map (optional)</string>
+    <string name="txtAgregaMasContenido">Add more content</string>
+    <string name="msgDominioDisponible">It\'s available!</string>
+    <string name="msgBuscandoSitio">Checking Domain</string>
+    <string name="msgSinEmail">Could not retrieve mail</string>
+    <string name="txtXMes">/ month</string>
+    <string name="txtMasFuncionalidad">More Features</string>
+    <string name="txtAgregaVideo">Add video in your site.</string>
+    <string name="txtMasReportes">More reports and statics.</string>
+    <string name="txtMasAlmacenamiento">More Content</string>
+    <string name="txtMasImagenes">More images and contacts.</string>
+    <string name="txtAtencionPremium">Premium Services</string>
+    <string name="txtSoporteTecnico">Premium Technical Support.</string>
+    <string name="txtSinPublicidad">No advertising.</string>
+   
+    <string name="txtAdquiereTel1">Buy your own domain for a more professional image and a more memorable address.</string>
+    <string name="txtComprarTel">Search</string>
+    <string name="msgSitioDisponible">The domain is avalaible!</string>
+    <string name="msgSitioNoDisponible">The domain is NOT avalaible!\nTry again with another name</string>
+   	<string name="msgTelComprado1">Already you purchased your .tel domain</string>
+    <string name="msgTelComprado2">Now you can:</string>
+    <string name="txtRegistralo">Register it</string>
+    
+    <string name="txtIngresaCodigo">Enter promotion code</string>
+    <string name="txtPromocion">Promotion</string>
+    <string name="txtDominioActual">Your current domain is:</string>
+	<string name="txtPrecioAnual">%1$s annual</string>
+	
+	<string name="txtMovilizaSitio1">Create a mobile-friendly version of your existing website</string>
+    <string name="txtMovilizaSitio2">Yes, mobilize my existing website</string>
+    <string name="txtMovilizaSitio3">Mobilize my existing website</string>
+    <string name="txtMovilizaSitio4">To activate the service, your webmaster needs to make a small change to the configuration of your existing website.</string>
+    <string name="txtMovilizaSitio5">Click the link below to send an email with the necessary instructions. We\'ve already written the email for you, so all you need to do is hit Send!</string>
+	<string name="txtMovilizaSitio6">Send email</string>
+
+	<string name="txtMovilizaCorreo1">Link code: mobile friendly version</string>
+	 <string name="txtMovilizaCorreo2">
+	<![CDATA[
+		<div style="font-family:Gotham, Helvetica Neue, Helvetica, Arial, sans-serif">
+		  <p>Hi there!</p>
+		  <p>It\'s really important for my business that my website looks great on smartphones. For this reason, I want to link my current domain with the new mobile-friendly site I\'ve just built with the Infomovil app.</p>
+		  <p>Please help me by pasting the following snippet of code between the <header></header> tags in the principal index file.</p>
+		  <strong>&lt;script id=&#34;mobileVersion&#34; type=&#34;text/javascript&#34; src=&#34;http://infomovil.com/PreReg/resources/js/redireccionamiento/mobilesite.js?xU9ukGGeIi5hPJQj=%1$s&#34;&gt;&lt;/script&gt;</strong>
+		  <p>Many thanks!</p>
+		</div>
+       	]]>
+    </string>
+
+	<string name="txtMovilizaSitioPlanPro">Mobilize your site.</string>
+	
+	<string name="txtCreaNombreSitioWeb">Name your website!</string>
+	<string name="txtElijeDominio">1. Choose a domain</string>
+	<string name="txtElijeNombre">2. Choose a name</string>
+	
+	<string name="txtFotosFacebook">Photos of Facebook</string>
+	<string name="txtAlbumFacebook">Álbumes de Facebook</string>
+    
+</resources>

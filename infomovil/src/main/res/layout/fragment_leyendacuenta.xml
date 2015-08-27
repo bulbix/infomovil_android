@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.infomovil.infomovil.gui.common.TextWithFont
+        android:id="@+id/lblStatusDominio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+    	android:layout_marginRight="30dp"
+        android:textColor="@color/colorFuenteAzul"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <com.infomovil.infomovil.gui.common.TextWithFont
+        android:id="@+id/labelFechaInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorFuenteAzul"
+        android:textSize="19sp" />
+
+    <com.infomovil.infomovil.gui.common.TextWithFont
+        android:id="@+id/labelFechaFin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorFuenteAzul"
+        android:textSize="19sp" />
+
+    <com.infomovil.infomovil.gui.common.TextWithFont
+        android:id="@+id/labelAuxNoPublicado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/txtProcesoPub"
+        android:textColor="@color/colorFuenteVerde"
+        android:textSize="19sp"
+        android:visibility="gone" />
+    
+   <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/line_verde" />
+
+    <com.infomovil.infomovil.gui.common.TextWithFont
+        android:id="@+id/lblMovilizaSitio1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+    	android:layout_marginRight="20dp"
+        android:text="@string/txtMovilizaSitio1"
+        android:textColor="@color/colorFuenteVerde"
+        android:visibility="gone"
+        android:textSize="19sp" />
+    
+      <com.infomovil.infomovil.gui.common.TextWithFont
+        android:id="@+id/lblMovilizaSitio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+    	android:layout_marginRight="30dp"
+        android:drawableLeft="@drawable/ico_pp_moviliza"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:drawablePadding="5dip"
+        android:text="@string/txtConoceMas"
+        android:textColor="@color/colorFuenteVerde"
+        android:visibility="gone"
+        android:textSize="19sp" />
+    
+      <com.infomovil.infomovil.gui.common.ButtonWithFont
+        android:id="@+id/btnMovilizaSitio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:background="@drawable/btnverdeslim"
+        android:text="@string/txtMovilizaSitio2"
+        android:textColor="@color/colorBlanco"
+        android:visibility="gone"
+        android:textSize="19sp" />
+
+</LinearLayout>

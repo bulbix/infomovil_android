@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <com.infomovil.infomovil.gui.common.TextWithFont
+        android:id="@+id/lblStatusDominio"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="@color/colorFuenteAzul"
+        android:textSize="19sp" 
+        android:layout_centerHorizontal="true" />
+
+    <com.infomovil.infomovil.gui.common.TextWithFont
+        android:id="@+id/labelFechaInicio"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"        
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="@color/colorFuenteAzul"
+        android:textSize="19sp"  
+        android:layout_below="@+id/lblStatusDominio"
+        android:layout_centerHorizontal="true"/>
+
+    <com.infomovil.infomovil.gui.common.TextWithFont
+        android:id="@+id/labelFechaFin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"        
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="@color/colorFuenteAzul"
+        android:textSize="19sp" 
+        android:layout_below="@+id/labelFechaInicio"
+        android:layout_centerHorizontal="true" />   
+
+</RelativeLayout>

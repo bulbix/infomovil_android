@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sortlist="http://schemas.android.com/apk/res/com.infomovil.infomovil"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground" >
+    
+    <RelativeLayout 
+        android:id="@+id/scrollGaleria"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorBackground" >
+        <com.infomovil.infomovil.gui.widget.sortlist.DragSortListView
+            android:layout_width="fill_parent"
+        	android:layout_height="match_parent"
+            android:paddingTop="0dp"
+		    android:paddingBottom="0dp"
+		    android:dividerHeight="0.5dp"
+		    android:fastScrollEnabled="true" 
+            android:id="@+id/tablaGaleria"
+            android:divider="@color/colorBackground"
+            android:longClickable="false"
+            sortlist:drag_enabled="true"
+		    sortlist:collapsed_height="2dp"
+		    sortlist:drag_scroll_start="0.33"
+		    sortlist:max_drag_scroll_speed="0.5"
+		    sortlist:float_alpha="0.6"
+		    sortlist:slide_shuffle_speed="0.3"
+		    sortlist:track_drag_sort="false"
+		    sortlist:use_default_controller="true"
+		    sortlist:drag_handle_id="@+id/drag_handleImage"
+		    sortlist:sort_enabled="true"
+		    sortlist:remove_enabled="false"
+		    sortlist:drag_start_mode="onDown"
+		    sortlist:remove_mode="flingRemove" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/layoutGaleria"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_border" >
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:id="@+id/labelMaxImagenes" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"            
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="19sp" />
+        
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:id="@+id/labelImagenesVertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/labelMaxImagenes"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/txtImagenesVertical"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="19sp" />
+        
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:id="@+id/labelImagenesRedimensiona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/labelImagenesVertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/txtImagenRedimensiona"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="19sp" />
+
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/labelMaxImagenes"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="-3dp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/bullet"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="25sp"
+            android:gravity="top" />
+        
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/labelImagenesVertical"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="-3dp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/bullet"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="25sp"
+            android:gravity="top" /> 
+        
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/labelImagenesRedimensiona"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="-3dp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/bullet"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="25sp"
+            android:gravity="top" />
+
+    </RelativeLayout>
+    
+
+</RelativeLayout>

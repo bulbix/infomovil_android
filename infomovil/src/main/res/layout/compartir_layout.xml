@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:fadeScrollbars="false" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" >
+
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:id="@+id/labelFelicidades"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:text="@string/txtFelicidades"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="19sp" />
+
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:id="@+id/labelNombreDominioCompartir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/labelFelicidades"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="19sp" />
+
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:id="@+id/labelEnLinea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/labelNombreDominioCompartir"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:gravity="center_horizontal"
+            android:text="@string/txtEnLinea"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="19sp" />
+
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:id="@+id/labelRenova"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/labelEnLinea"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="19sp" />
+
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:id="@+id/labelComparteSitio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/labelRenova"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:gravity="center_horizontal"
+            android:text="@string/txtComparteSitio"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="19sp" />
+
+        <com.infomovil.infomovil.gui.common.ButtonWithFont
+            android:id="@+id/btnComprarTel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/labelComparteSitio"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btnverde"
+            android:onClick="comprarTelnames"
+            android:text="@string/txtComprarTel"
+            android:textColor="@color/colorBlanco"
+            android:visibility="gone" />
+
+        <com.infomovil.infomovil.gui.common.ButtonWithFont
+            android:id="@+id/btnSiguienteCompartir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnComprarTel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btnverdeslim"
+            android:onClick="terminarPublicacion"
+            android:text="@string/txtSeguir"
+            android:textColor="@color/colorBlanco" />
+    </RelativeLayout>
+
+</ScrollView>

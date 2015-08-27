@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fadeScrollbars="false" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:id="@+id/labelDominioElegido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="19sp" />
+
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:id="@+id/labelEstaDisponible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="19sp" />
+
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:id="@+id/labelNombrePublicar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/txtNombrePublicar2"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="19sp" />
+
+        <com.infomovil.infomovil.gui.common.EditTextWithFont
+            android:id="@+id/txtNombrePublicar"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_border"
+            android:maxLength="255"
+            android:inputType="text"
+            android:textColor="@color/colorFuenteAzul"
+            android:textSize="19sp" />
+
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:id="@+id/labelDireccion1Publicar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/textoPubliDireccion1"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="19sp" />
+
+        <com.infomovil.infomovil.gui.common.EditTextWithFont
+            android:id="@+id/txtDireccion1Publicar"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_border"
+            android:maxLength="255"
+            android:inputType="text"
+            android:textColor="@color/colorFuenteAzul"
+            android:textSize="19sp" />
+
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:id="@+id/labelDireccion2Publicar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/textoPubliDireccion2"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="19sp" />
+
+        <com.infomovil.infomovil.gui.common.EditTextWithFont
+            android:id="@+id/txtDireccion2Publicar"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:inputType="text"
+            android:background="@drawable/rounded_border"
+            android:maxLength="255"
+            android:textColor="@color/colorFuenteAzul"
+            android:textSize="19sp" />
+        
+        
+        <!-- Correo -->
+        
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:id="@+id/labelCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/txtDireccionCorreo"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="19sp" />
+
+        <com.infomovil.infomovil.gui.common.EditTextWithFont
+            android:id="@+id/txtCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:inputType="text"
+            android:background="@drawable/rounded_border"
+            android:maxLength="255"
+            android:textColor="@color/colorFuenteAzul"
+            android:textSize="19sp" />
+
+        <!-- Pais -->
+        
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:id="@+id/labelPaisPublicar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/textoPubliCountry"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="19sp" />
+
+        <RelativeLayout
+            android:id="@+id/layoutPaisPublicar"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_border" >
+
+            <com.infomovil.infomovil.gui.common.TextWithFont
+                android:id="@+id/labelPaisSeleccionadoPublicar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorFuenteAzul"
+                android:textSize="19sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorTransparente"
+                android:onClick="buscarPais" />
+        </RelativeLayout>
+
+        <com.infomovil.infomovil.gui.common.ButtonWithFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btnverdeslim"
+            android:onClick="publicarDominio"
+            android:text="@string/txtConfirmalo"
+            android:textColor="@color/colorBlanco"
+            android:textSize="19sp" />
+    </LinearLayout>
+
+</ScrollView>

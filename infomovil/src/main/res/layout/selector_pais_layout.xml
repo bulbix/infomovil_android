@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.infomovil.infomovil.gui.common.EditTextWithFont
+        android:id="@+id/txtBuscarPais"
+        android:layout_width="match_parent"
+        android:maxLength="255"
+        android:paddingLeft="10dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_border"
+        android:hint="Buscar"
+        android:textColor="@color/colorFuenteAzul"
+        android:textSize="19sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtBuscarPais"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_border" >
+
+        <ListView
+            android:id="@+id/listaPaises"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:divider="@color/colorBackground"
+            android:dividerHeight="0.5dp"
+            android:longClickable="false" >
+        </ListView>
+    </RelativeLayout>
+
+</RelativeLayout>

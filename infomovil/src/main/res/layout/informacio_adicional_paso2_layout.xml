@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:background="@color/colorBackground" >
+
+    <com.infomovil.infomovil.gui.common.TextWithFont
+        android:id="@+id/labelAgregaTituloInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/txtAgregarTitulo"
+        android:textColor="@color/colorFuenteVerde"
+        android:textSize="19sp" />
+
+    <com.infomovil.infomovil.gui.common.EditTextWithFont
+        android:id="@+id/txtAgregarTituloInfo"
+        android:maxLength="20"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/labelAgregaTituloInfo"
+        android:layout_alignRight="@+id/labelAgregaTituloInfo"
+        android:layout_below="@+id/labelAgregaTituloInfo"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/rounded_border"
+        android:textColor="@color/colorFuenteAzul"
+        android:textSize="19sp" />
+
+    <com.infomovil.infomovil.gui.common.TextWithFont
+        android:id="@+id/labelAgregarInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtAgregarTituloInfo"
+        android:layout_below="@+id/txtAgregarTituloInfo"
+        android:layout_marginTop="20dp"
+        android:text="@string/txtTituloInfoAdicional"
+        android:textColor="@color/colorFuenteVerde"
+        android:textSize="19sp" />
+
+    <com.infomovil.infomovil.gui.common.EditTextWithFont
+        android:id="@+id/txtAgregarInfo"
+        android:maxLength="400"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingLeft="10dp"
+        android:layout_alignLeft="@+id/labelAgregarInfo"
+        android:layout_below="@+id/labelAgregarInfo"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_border"
+        android:textColor="@color/colorFuenteAzul"
+        android:textSize="19sp"  />
+
+    <Button
+        android:id="@+id/btnEliminarInfo"
+        android:layout_width="29dp"
+        android:layout_height="35dp"
+        android:layout_alignRight="@+id/txtAgregarInfo"
+        android:layout_below="@+id/txtAgregarInfo"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/basurero"
+        android:onClick="borrarDatos" 
+        android:visibility="gone" />
+
+</RelativeLayout>

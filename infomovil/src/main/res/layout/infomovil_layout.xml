@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    android:id="@+id/layoutGeneralPrincipal" >
+    
+    <RelativeLayout
+        android:id="@+id/layoutEncabezadoPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" 
+        >
+        <ImageView
+        android:id="@+id/imagenLogo"
+        android:layout_width="245dp"
+        android:layout_height="49dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logoinfomovil" />
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:id="@+id/labelNoVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:layout_toRightOf="@+id/imagenLogo"
+            android:layout_alignBottom="@+id/imagenLogo"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/colorBlanco" />
+        
+        <RelativeLayout 
+            android:id="@+id/layoutBarraNavegacion"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:visibility="visible"
+            android:background="@drawable/plecamorada" >
+            
+            <com.infomovil.infomovil.gui.common.TextWithFont
+                android:id="@+id/tituloVista"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorBlanco"
+                android:text="@string/tituloPrincipal"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:id="@+id/botonGuardarNavegacion"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/aceptar"
+                android:onClick="guardarDatos" />
+            
+            <Button
+                android:id="@+id/botonVistaPrevia"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/visualizar"
+                android:onClick="verVistaPrevia" />
+            
+            <Button
+                android:id="@+id/botonEditarNavegacion"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/organizar"
+                android:onClick="organizarTabla" />
+            
+            <Button
+                android:id="@+id/botonAgregar"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/botonEditarNavegacion"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/agregar"
+                android:onClick="agregarItem" />
+            
+            <Button
+                android:id="@+id/botonCancelar"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/btncancelar"
+                android:onClick="cancelarOperacion" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutContent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/menuInferior"
+        android:layout_below="@+id/layoutEncabezadoPrincipal"
+        android:orientation="vertical" >
+</RelativeLayout>
+    <!-- Menu general Inferior -->
+    <LinearLayout 
+        android:id="@+id/menuInferior"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorTransparente"
+        android:visibility="gone"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/btnEstadisticas"
+            android:layout_width="77dp"
+            android:layout_height="52dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/reportes"
+            android:onClick="verEstadisticas"/>
+        <Button
+            android:id="@+id/btnCompartir"
+            android:layout_width="77dp"
+            android:layout_height="52dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/compartir"
+            android:onClick="verCompartir"/>
+        <Button
+            android:id="@+id/btnCuenta"
+            android:layout_width="77dp"
+            android:layout_height="52dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/cuenta"
+            android:onClick="verCuenta"/>
+        <Button
+            android:id="@+id/btnConfiguracion"
+            android:layout_width="77dp"
+            android:layout_height="52dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/configuracion"
+            android:onClick="verConfiguracion"/>
+    </LinearLayout>
+    <!-- Menu inferior mapa -->
+    <LinearLayout 
+        android:id="@+id/menuInferiorMapa"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:background="@color/colorTransparente"
+        >
+        <Button
+            android:id="@+id/btnBuscarPosicionMapa"
+            android:layout_width="77dp"
+            android:layout_height="52dp"
+            android:background="@drawable/mapa1" 
+            android:onClick="buscarPosicion" />
+        <Button
+            android:id="@+id/btnBuscarPosicionActualMapa"
+            android:layout_width="77dp"
+            android:layout_height="52dp"
+            android:background="@drawable/mapa2" 
+            android:onClick="buscarPosicionActual"/>
+        <Button
+            android:id="@+id/btnEliminarPosicionMapa"
+            android:layout_width="77dp"
+            android:layout_height="52dp"
+            android:background="@drawable/mapa3"
+            android:onClick="eliminarPosicion"/>
+    </LinearLayout>
+    
+
+</RelativeLayout>

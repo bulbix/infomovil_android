@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="200dp"
+    android:background="@drawable/fondoalert" >
+    
+    <com.infomovil.infomovil.gui.common.TextWithFont
+        android:id="@+id/txtMensajeAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textSize="19sp"
+        android:textColor="@color/colorNegro" />
+    
+    <ProgressBar
+            android:id="@+id/progressBarAlert"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+             android:layout_centerVertical="true"/>
+    
+    <com.infomovil.infomovil.gui.common.TextWithFont
+        android:id="@+id/labelAccionActivity"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/progressBarAlert"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorNegro" />
+    
+    
+    
+    <com.infomovil.infomovil.gui.common.ButtonWithFont
+            android:id="@+id/botonNo" 
+            android:layout_width="175dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="@string/txtNo"
+            android:textSize="19sp"
+            android:textColor="@color/colorNegro" 
+            android:background="@drawable/btnsinoalert" />
+        
+        <com.infomovil.infomovil.gui.common.ButtonWithFont 
+            android:id="@+id/botonSi"
+            android:layout_width="175dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:text="@string/txtSi"
+            android:textSize="19sp"
+            android:textColor="@color/colorNegro" 
+            android:background="@drawable/btnsinoalert" />
+        
+        <com.infomovil.infomovil.gui.common.ButtonWithFont
+            android:id="@+id/botonAceptar"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:text="@string/txtAceptar"
+            android:textSize="19sp"
+            android:textColor="@color/colorNegro" 
+            android:background="@drawable/btnaceptaralert" />
+
+</RelativeLayout>

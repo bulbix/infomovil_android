@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+     
+<!--     <com.google.android.gms.maps.MapView -->
+<!--         android:id="@+id/mapaUbicacionLoc" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="match_parent" />        -->
+
+
+		<fragment
+    		class="com.google.android.gms.maps.MapFragment"
+    		android:id="@+id/map"
+    		android:layout_width="match_parent"
+    		android:layout_height="match_parent" />    
+    		
+		 <ImageView
+        	android:id="@+id/mira"
+        	android:layout_width="57dp"
+        	android:layout_height="57dp"
+        	android:src="@drawable/mira" 
+        	android:layout_centerHorizontal="true" 
+        	android:layout_centerVertical="true" />
+ 
+</RelativeLayout>

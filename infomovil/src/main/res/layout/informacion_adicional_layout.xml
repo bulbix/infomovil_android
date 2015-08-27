@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground" >
+    <ScrollView 
+        android:id="@+id/scrollInformacion"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/colorBackground"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+		android:scrollbars="none"
+		android:visibility="gone" >
+
+        <com.infomovil.infomovil.gui.widget.TableView
+            android:id="@+id/tablaInformacion"
+            style="@style/UITableView" />
+
+    </ScrollView>
+    
+    <RelativeLayout 
+        android:id="@+id/layoutInformacionAdicional"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:background="@drawable/rounded_border" >
+        
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:id="@+id/labelAgregaInformacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"   
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="19sp" />
+        
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:id="@+id/labelPlanesInformacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/labelAgregaInformacion"
+            android:layout_marginTop="10dp"
+            android:text="@string/txtAgregaBasicoInfoAdicional"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="19sp" />
+        
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/labelAgregaInformacion"
+            android:layout_marginTop="-3dp"
+            android:text="@string/bullet"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="25sp"
+            android:gravity="top" />
+        
+        <com.infomovil.infomovil.gui.common.TextWithFont
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/labelPlanesInformacion"
+            android:layout_marginTop="-3dp"
+            android:text="@string/bullet"
+            android:textColor="@color/colorFuenteVerde"
+            android:textSize="25sp"
+            android:gravity="top" />
+        
+    </RelativeLayout>
+    
+
+</RelativeLayout>

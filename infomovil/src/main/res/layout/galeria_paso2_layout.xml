@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/imagenGaleriaPreview"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/previsualizador" />
+
+            <com.infomovil.infomovil.gui.common.TextWithFont
+                android:id="@+id/labelTituloFoto"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imagenGaleriaPreview"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="@string/txtTituloFoto"
+                android:textColor="@color/colorFuenteVerde"
+                android:textSize="19sp" />
+
+            <com.infomovil.infomovil.gui.common.EditTextWithFont
+                android:id="@+id/textTitutloFoto"
+                android:singleLine="true"
+                android:layout_width="300dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/labelTituloFoto"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_border"
+                android:maxLength="255"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorFuenteAzul"
+                android:textSize="19sp" />
+
+            <RelativeLayout
+                android:id="@+id/layoutGaleriaTomarFoto"
+                android:layout_width="300dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/textTitutloFoto"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_border" >
+
+                <com.infomovil.infomovil.gui.common.TextWithFont
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/txtTomarFoto"
+                    android:textColor="@color/colorFuenteVerde"
+                    android:textSize="19sp" />
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="29dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/continuar" />
+
+                <Button
+                    android:id="@+id/botonGaleriaTomarFoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorTransparente"
+                    android:tag="1" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layoutGaleriaUsarFoto"
+                android:layout_width="300dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/layoutGaleriaTomarFoto"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_border" >
+
+                <com.infomovil.infomovil.gui.common.TextWithFont
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/txtUsarFoto"
+                    android:textColor="@color/colorFuenteVerde"
+                    android:textSize="19sp" />
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="29dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/continuar" />
+
+                <Button
+                    android:id="@+id/botonGaleriaUsarFoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorTransparente"
+                    android:tag="2" />
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:id="@+id/layoutGaleriaFacebook"
+                android:layout_width="300dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/layoutGaleriaUsarFoto"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_border" >
+
+                <com.infomovil.infomovil.gui.common.TextWithFont
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/txtFotosFacebook"
+                    android:textColor="@color/colorFuenteVerde"
+                    android:textSize="19sp" />
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="29dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/continuar" />
+
+                <Button
+                    android:id="@+id/botonGaleriaFacebook"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorTransparente"
+                    android:tag="2" />
+            </RelativeLayout>
+            
+            
+            
+
+            <Button
+                android:id="@+id/btnBorrarImagen"
+                android:layout_width="29dp"
+                android:layout_height="35dp"
+                android:layout_alignRight="@+id/layoutGaleriaFacebook"
+                android:layout_below="@+id/layoutGaleriaFacebook"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/basurero"
+                android:onClick="borrarDatos" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

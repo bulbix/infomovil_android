@@ -1,0 +1,361 @@
+{#infomovil}
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+		
+<html>  
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta http-equiv="Cache-Control" content="max-age=3600"/>
+<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1" /><!--  content="width=device-width"initial-scale=1, maximum-scale=1-->
+	<script type="text/javascript">if(typeof wabtn4fg==="undefined"){wabtn4fg=1;h=document.head||document.getElementsByTagName("head")[0],s=document.createElement("script");s.type="text/javascript";s.src="url/to/your/button/whatsapp-button.js";h.appendChild(s);}</script>
+<link href="/images/favicon.ico" rel="icon" type="image/x-icon" />
+ 
+
+
+ 
+ 
+	
+<head>
+ <link href="http://info-movil.net/css/NewStyle.css"  rel="stylesheet" type="text/css"/> 
+ <link href="http://info-movil.net/css/NewSprite.css"  rel="stylesheet" type="text/css"/> 
+ <style type="text/css" > .hide { display:none; } </style>
+  <script src="http://info-movil.net/js/jquery-1.9.1.js" type="text/javascript"></script>
+ <script type="text/javascript"   src="http://info-movil.net/js/functions.js"></script>
+ 
+ <meta property="og:url" content="" >
+ <meta property="og:title" content="{$domainName}" >
+ <meta property="og:type" content="website">
+ <meta property="og:description" content="{$displayString}" >
+ <meta property="og:image" content="http://www.pizzastibonetes.tel/images/logo-250.jpg">
+ <meta itemprop="name" content="{$domainName}">
+ <meta itemprop="description" content="{$displayString}">
+ <meta name="description" content="{$displayString}">
+ <meta name="name" content="{$domainName}">
+ <meta name = "format-detection" content = "telephone=no">
+ <title>{$domainName}</title>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-53077061-1', 'auto');
+ ga('send', 'pageview'); 
+</script>
+ </head><!-- End Head --> 
+<body bgcolor = {$color}>
+  <div id="container">
+	 <div id="headerLogo" style=" width=100%; border-radius:7px; background:#2e2e2e; padding:2% 0; margin-bottom:.9%;">
+      <table id="Logo" width="90%"  style="margin:0 auto;">
+       <td width="45px;">
+          <img id="photo" src="data:image/png;base64,{$imagenLogo}" />
+       </td>
+       <td >
+         <div class="info">
+            {$nombreEmpresa}
+         </div> <!-- End Titulo Domain --> 
+       </td>
+      </table>
+  </div>
+    <div id="ContenedorGeneral"> 
+      <div id="content">
+        <div id="content-left" class="left-column">
+          <div id="descCorta">
+            <h2 id="shortDesc" style="word-wrap: break-word;">{$nombreEmpresa}<br></h2>
+          </div> <!-- End short desc --> 
+      </div> 
+      <div class="division" style=" width: 90%; border-top-width: 1px; border-top-style: dotted; border-top-color:#111111; margin: 1% auto;" ></div>   
+	
+    <div id="contenedor-Contacto">
+      <table id="tablaContactos"  border="0" cellspacing="0">
+       <td>
+        
+        {% if ($telefonoPrincipal) %}
+        <a href="tel:{$telefonoPrincipal}">
+          <div id="article" class="llamanos"></div>
+        </a> 
+        {% else %}
+        	 <a href="javascript:void(0);" onclick="noDisponible()" >
+         	 	<div id="article" class="llamanos"></div>
+        	</a> 
+		{% endif %}
+		<span id="text_icono" >Llámanos</span>
+        
+       <td>
+       
+          {% if ($latitude) %}
+          
+          <a id="verMapa" href="javascript:void(0);" onclick="creariMapa({$latitude},{$longitude})"  >
+           <div id="article" class="ubicanos"></div>
+          </a>
+          {% else %}
+          
+          
+          {% endif %}
+          <span id="text_icono" > Ub&iacute;canos</span>
+       <td>
+       
+       	 {% if ($emailPrincipal) %}
+       
+	         <a id="link "href="mailto:${emailPrincipal}?:&subject=Informaci&oacute;n&body=Hola,%20estoy%20interesado%20en%20recibir%20m&aacute;s%20informaci&oacute;n%20de%20tus%20productos%20y%20/%20o%20servicios%20anunciados%20en http://www.pizzastibonetes.tel " > 
+	           <div id="article" class="contactanos"></div>
+	         </a>
+         
+          {% else %}
+          
+          
+          {% endif %}
+         
+          
+         <span id="text_icono">Cont&aacute;ctanos</span>
+      </table>
+    </div> <!-- End Contacto Principal --> 
+   </div> <!-- End ContenedorGeneral-->
+  </div> <!-- End container-->  
+	
+  {% if ($latitude) %}
+	
+	
+  <div id="mapa" class="hide" >
+    <table id="head-mapa" border=0 width="100%">
+      <td  width="20%"> 
+        <div id="iconos" class="ubicacion"></div>
+      <td> 
+        <div id="text_icono_contenedor"> Ubicaci&oacute;n </div>
+      <td width="40%"> 
+        <div id="boton-contenedor" >
+          <a href="javascript:void(0);"> <div id="ocultar-mapa" class="hideP" ></div> </a>
+        </div>
+    </table>
+    <div id="contenedorMapa"> </div> 
+  </div> <!-- End Mapa -->  
+  
+  {% endif %}
+	  
+	
+  <div id="contenedor"> 
+    <a onclick="verOferta()"><table id="head-promociones" border=0 width="100%">
+      <td  width="20%"> 
+        <div id="iconos" class="promociones">
+      <td> 
+        <div id="text_icono_contenedor"> Promociones</div>
+      <td width="40%"> 
+        <div id="boton-contenedor" > 
+          <div id="ocultarOffer" class="showP" ></div>
+        </div>
+    </table></a> 
+    <div id="offer-panel" class="hide">
+      <div class="wrapper">
+       <div style=" width:100%; margin:0 auto; text-align:center;">   <div id ="photosOffer" class="descuento"  style=" margin: 0 auto;" ></div></div> 
+        <div id="text_icono_Offer">{$promocionTitulo}</div>
+        <div id="ofertaDiv">
+	      		<div id="contOffer">
+         			
+        <div id="Descripcion" class="text_desc">${promocionDescripcion}</div>
+         			
+<div id="Caducidad" class="text_desc">Vigencia: 31/12/2016 </div>
+         			
+<div id="Reddem" class="text_desc">Como redimir: Vis&iacute;tanos </div>
+         			
+<div id="verTerms" class="text_desc" src="." style="margin-top:3%;"><a style="color: rgb(0, 0, 0);">Informaci&oacute;n adicional</a>
+<div id="Terminos" class="text_desc_terminos ">{$promocionTerminos}</div> </div>
+         		</div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- End Oferta-->   
+	
+  <div id="contenedor">
+    <a  onclick="verGaleria()" >
+      <table id="head-galeria" border=0 width="100%">
+      <td  width="20%"> 
+        <div id="iconos" class="imagenes">
+      <td> 
+        <div id="text_icono_contenedor">Galer&iacute;a</div>
+	   <td width="40%"> <div id="boton-contenedor">
+          <div  id="ocultar-galeria" class="showP" ></div>
+    </table>
+ </a>
+    <div id="div-galeria" class="division hide" ></div>
+    <div id="galeria" class="hide">
+    
+    	{% loop in $imagenes as $imagen first_last="true" %}
+    		 <div class="image_gallery" >
+        	<img alt ="Espacios abiertos para que disfrutes de nuestro ambiente" 
+        	title ="Espacios abiertos para que disfrutes de nuestro ambiente" 
+        	src="data:image/png;base64,{$imagen.imagenClobGaleria}" class="imagen-galery">
+		 	<div id="descImagenGaleria">{$imagen.descripcionImagen}</div>
+      		</div>
+      		{%if ($is_last)}
+      		{% else %}
+      			<div class="divisionGaleria" style="border-top:solid 1px rgb(111, 111, 111); margin: 3% auto 0 auto; width:94%; " ></div>
+          	{% endif %}	
+      		<div>&nbsp;</div>
+    	{% endloop %}
+    </div> 
+  </div> <!-- End Galeria -->  
+	
+  <div id="contenedor">
+   <a onclick="verPerfil()" >
+    <table id="head-perfil" border=0 width="100%">
+      <td  width="20%"> 
+        <div id="iconos" class="perfil">
+	   <td> 
+        <div id="text_icono_contenedor">Perfil y descripci&oacute;n</div>
+	   <td width="40%"> 
+        <div id="boton-contenedor" > 
+            <div id="ocultar-perfil" class="showP" ></div>
+        </div>
+    </table> 
+  </a>
+    <div id="perfil-panel" class="hide">
+      <div id="contenedor-data"> 
+        <span id="align_desc_cont">Productos y servicios</span><br>
+        <div class="clr"></div>
+        <span class="align_desc_cont_sub">La cocina gourmet se describe c&oacute;mo el arte de combinar ingredientes sencillos y tradicionales, creando sabores ex&oacute;ticos y exquisitos al paladar. <br>Nuestras pizzas son elaboradas con productos frescos de la m&aacute;s alta calidad. <br></span>
+        <div class="clr"></div>       
+<div class="divisionContacto" style=" border-top: solid rgb(111, 111, 111) 1px; margin: 0 auto; " ></div>
+     </div>
+     <div class="clr"></div>
+      <div id="contenedor-data"> 
+        <span id="align_desc_cont">&Aacute;reas de servicio</span><br>
+        <div class="clr"></div>
+        <span class="align_desc_cont_sub">Condesa, Roma Norte, Roma Sur <br></span>
+        <div class="clr"></div>       
+<div class="divisionContacto" style=" border-top: solid rgb(111, 111, 111) 1px; margin: 0 auto; " ></div>
+     </div>
+     <div class="clr"></div>
+      <div id="contenedor-data"> 
+        <span id="align_desc_cont">Horario</span><br>
+        <div class="clr"></div>
+        <div id="constenedor-horario">
+          <table id="CSSTableGenerator" class="align_desc_cont_sub" style="margin-left:10%;">
+            <td class="horarios">Lun</td>
+            <td class="horarios">10:00 - 22:00</td>
+            <tr>
+            <td class="horarios">Mar</td>
+            <td class="horarios">10:00 - 22:00</td>
+            <tr>
+            <td class="horarios">Mier</td>
+            <td class="horarios">10:00 - 22:00</td>
+            <tr>
+            <td class="horarios">Jue</td>
+            <td class="horarios">10:00 - 22:00</td>
+            <tr>
+            <td class="horarios">Vie</td>
+            <td class="horarios">10:00 - 22:00</td>
+            <tr>
+            <td class="horarios">Sab</td>
+            <td class="horarios">10:00 - 22:00</td>
+            <tr>
+            <td class="horarios">Dom</td>
+            <td class="horarios">10:00 - 22:00</td>
+            <tr>
+          </table> 
+	       <br>          
+<div class="divisionContacto" style=" border-top: solid rgb(111, 111, 111) 1px; margin: 0 auto; " ></div>
+        </div>
+      </div>	
+      <div class="clr"></div> 
+      <div id="contenedor-data"> 
+        <span id="align_desc_cont">M&eacute;todos de Pago</span><br>
+        <div class="clr"></div>
+        <span class="align_desc_cont_sub">Aceptamos pagos en efectivo y todas las tarjetas de cr&eacute;dito u d&eacute;bito. <br></span>
+        <div class="clr"></div>       
+<div class="divisionContacto" style=" border-top: solid rgb(111, 111, 111) 1px; margin: 0 auto; " ></div>
+     </div>
+     <div class="clr"></div>
+      <div id="contenedor-data"> 
+        <span id="align_desc_cont">Biografía</span><br>
+        <div class="clr"></div>
+        <span class="align_desc_cont_sub">Somos una empresa familiar de origen Italiana, nuestras recetas han pasado de generaci&oacute;n en generaci&oacute;n siendo perfeccionadas y ahora sarisfaciendo el paladar de nuestros clientes. <br></span>
+        <div class="clr"></div>       
+<div class="divisionContacto" style=" border-top: solid rgb(111, 111, 111) 1px; margin: 0 auto; " ></div>
+     </div>
+     <div class="clr"></div>
+      <div id="contenedor-data"> 
+        <span id="align_desc_cont">Negocio o profesi&oacute;n</span><br>
+        <div class="clr"></div>
+        <span class="align_desc_cont_sub">Restaurante, pizzer&iacute;a <br></span>
+        <div class="clr"></div>       
+     </div>
+     <div class="clr"></div>
+   </div>
+  </div> <!-- End Perfil--> 
+	
+  <div id="contenedor">
+  <a onclick="verContacto()">
+    <table id="head-contacto" border=0 width="100%">
+      <td  width="20%"> 
+        <div id="iconos" class="contacto"> </div>
+	   <td>
+        <div id="text_icono_contenedor">Contacto </div>
+	   <td width="40%">
+        <div id="boton-contenedor"> 
+        <div  id="ocultar-contacto" class="showP" ></div>
+        </div>
+    </table>
+  </a>
+    <div id="body-contacto" class="hide">
+      <div id="contenedor-data" >
+        <div  id ="align_desc_cont" class="c-telefono"></div> <a id="tilte-contact">Tel&eacute;fono</a> <br>
+          <a class="align_desc_cont_sub" style="style="a:link text-decoration:none; color: rgb(60, 74, 151); font-family: "Avenir", Helvetica;">+525552563224</a>
+          <div class="clr"></div>
+          <a onclick="noDisponible()" id="link"> <input id="contenedor-data-boton" value="Llamar" type="button"  class="btncontact" > </input> </a>
+          <div class="clr"></div>
+          <br>      
+<div class="divisionContacto" style="  border-top-width: 1px; border-top-style: solid; border-top-color: rgb(111, 111, 111) !important; margin: 0 auto 10px; " ></div>
+		</div>
+      <div id="contenedor-data" >
+        <div  id ="align_desc_cont" class="c-email"></div> <span id="tilte-contact">e-mail</span> <br>
+          <a class="align_desc_cont_sub" style="style="a:link text-decoration:none; color: rgb(60, 74, 151); font-family: "Avenir", Helvetica;">lostibonetes@gmail.com</a>
+          <div class="clr"></div>
+          <a href="mailto:lostibonetes@gmail.com?subject=Hola&body=Hola,%20estoy%20interesado%20en%20recibir%20m&aacute;s%20informaci&oacute;n%20de%20tus%20productos%20y%20/%20o%20servicios%20de http://www.pizzastibonetes.tel" target="_self" id="link"> <input id="contenedor-data-boton"  value="Contactar" type="button" class="btncontact" > </input> </a>
+          <div class="clr"></div>
+          <br>      
+		</div>
+      </div>
+  </div>   <!-- End Contacto-->    
+	
+  <div id="contenedor">
+  <a onclick="verDireccion()">
+    <table id="head-direccion" border=0 width="100%">
+      <td width="20%"> 
+        <div id="iconos" class="direccion"></div>
+      <td>
+        <div id="text_icono_contenedor">Direcci&oacute;n </div>
+	   <td width="40%"> 
+        <div id="boton-contenedor" >
+          <div  id="ocultar-direccion" class="showP" ></div>
+        </div>
+    </table>
+   </a>
+    <div id="direccion-panel" class="hide">
+      <div id="contenedor-data">
+        <span class="align_desc_cont_sub">Insurgentes Sur 3579,</span>
+      </div>
+      <div id="contenedor-data">
+        <span class="align_desc_cont_sub">Miguel Hidalgo,</span>
+      </div>
+      <div id="contenedor-data">
+        <span class="align_desc_cont_sub">Villa Ol&iacute;mpica</span>
+      </div>
+      <div id="contenedor-data">
+        <span class="align_desc_cont_sub">Tlalpan</span>
+      </div>
+      <div id="contenedor-data">
+        <span class="align_desc_cont_sub">Distrito Federal</span>
+      </div>
+      <div id="contenedor-data">
+        <span class="align_desc_cont_sub">M&eacute;xico</span>
+      </div>
+      <div id="contenedor-data">
+        <span class="align_desc_cont_sub">14250</span>
+      </div>
+    <div>&nbsp;</div></div>
+  </div> <!-- End Direccion-->  
+	
+  
+</body>     
+	 
+	
+	
+</html>
+{#}

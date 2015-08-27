@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground" >
+    
+    <com.infomovil.infomovil.gui.common.TextWithFont 
+        android:id="@+id/labelDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/txtDescripcionCorta"
+        android:lines="2"
+        android:textColor="@color/colorFuenteVerde"
+        android:textSize="19sp" />
+
+    <com.infomovil.infomovil.gui.common.EditTextWithFont
+        android:id="@+id/txtDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:maxLength="128"
+        android:layout_below="@+id/labelDescripcion"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="40dp"
+        android:inputType="textMultiLine"
+        android:textColor="@color/colorFuenteAzul"
+        android:textSize="19sp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/rounded_border" />
+    
+     <Button 
+            android:id="@+id/botonBorrarDescripcion"
+            android:layout_width="29dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/txtDescripcion"
+            android:layout_alignRight="@+id/txtDescripcion"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/basurero"
+            android:onClick="borrarDatos" 
+            android:visibility="gone" />    
+
+</RelativeLayout>

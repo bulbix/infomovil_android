@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<array>
+	<dict>
+		<ejemplo>Teléfono</ejemplo>
+		<mensaje>Número Telefónico</mensaje>
+		<expresion>!^.*$!tel:</expresion>
+		<subcategoria> </subcategoria>
+		<servicio>E2U+voice:tel</servicio>
+		<text>Teléfono</text>
+		<image>ctelefono</image>
+	</dict>
+	<dict>
+		<ejemplo>Teléfono</ejemplo>
+		<mensaje>Número Telefónico</mensaje>
+		<expresion>!^.*$!tel:</expresion>
+		<subcategoria> </subcategoria>
+		<servicio>E2U+voice:tel+x-mobile</servicio>
+		<text>Móvil</text>
+		<image>cmovil</image>
+	</dict>
+	<dict>
+		<ejemplo>Teléfono</ejemplo>
+		<mensaje>Número Telefónico</mensaje>
+		<expresion>!^.*$!tel:</expresion>
+		<subcategoria> </subcategoria>
+		<servicio>E2U+sms:tel</servicio>
+		<text>Teléfono SMS</text>
+		<image>csms</image>
+	</dict>
+	<dict>
+		<ejemplo> </ejemplo>
+		<mensaje>E-mail</mensaje>
+		<expresion>!^.*$!mailto:</expresion>
+		<subcategoria> </subcategoria>
+		<servicio>E2U+email:mailto</servicio>
+		<text>E-mail</text>
+		<image>cemail</image>
+	</dict>
+	<dict>
+		<ejemplo>Teléfono</ejemplo>
+		<mensaje>Número Fax</mensaje>
+		<expresion>!^.*$!tel:</expresion>
+		<subcategoria> </subcategoria>
+		<servicio>E2U+fax:tel</servicio>
+		<text>Fax</text>
+		<image>cfax</image>
+	</dict>
+	<dict>
+		<ejemplo>www.facebook.com/tufanpage</ejemplo>
+		<mensaje>Liga a tu cuenta de facebook</mensaje>
+		<expresion>!^.*$!http://</expresion>
+		<subcategoria>facebook</subcategoria>
+		<servicio>E2U+web:http</servicio>
+		<text>Facebook</text>
+		<image>cfacebook</image>
+	</dict>
+	<dict>
+		<ejemplo>www.twitter.com/tucuenta</ejemplo>
+		<mensaje>Enlaza tu cuenta de Twitter</mensaje>
+		<expresion>!^.*$!http://</expresion>
+		<subcategoria>twitter</subcategoria>
+		<servicio>E2U+web:http</servicio>
+		<text>Twitter</text>
+		<image>ctwitter</image>
+	</dict>
+	<dict>
+		<ejemplo>plus.google.com/tucuenta</ejemplo>
+		<mensaje>Liga a tu cuenta de google +</mensaje>
+		<expresion>!^.*$!http://</expresion>
+		<subcategoria> </subcategoria>
+		<servicio>E2U+web:http</servicio>
+		<text>Google+</text>
+		<image>cgoogle</image>
+	</dict>
+	<dict>
+		<ejemplo>tucuenta</ejemplo>
+		<mensaje>Liga a tu cuenta de skype</mensaje>
+		<expresion>!^.*$!skype:</expresion>
+		<subcategoria> </subcategoria>
+		<servicio>E2U+x-voice:skype</servicio>
+		<text>Skype</text>
+		<image>cskype</image>
+	</dict>
+	<dict>
+		<ejemplo>www.linkedin.com/tuempresa/</ejemplo>
+		<mensaje>Liga a tu cuenta de Linkedin</mensaje>
+		<expresion>!^.*$!http://</expresion>
+		<subcategoria>linkedin</subcategoria>
+		<servicio>E2U+web:http</servicio>
+		<text>Linkedin</text>
+		<image>clinkedin</image>
+	</dict>
+	<dict>
+		<ejemplo>www.infomovil.com</ejemplo>
+		<mensaje>Liga a tu sitio web</mensaje>
+		<expresion>!^.*$!https://</expresion>
+		<subcategoria>securewebsite</subcategoria>
+		<servicio>E2U+web:https</servicio>
+		<text>Website</text>
+		<image>csweb</image>
+	</dict>
+</array>

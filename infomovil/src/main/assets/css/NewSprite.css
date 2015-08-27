@@ -1,0 +1,470 @@
+@CHARSET "UTF-8";
+ .llamanos, .ubicanos, .contactanos{
+	background: url("../images/sprite_mov_150_dpi.png") no-repeat ;  
+	 transform:scale(.42,.42); 
+	-moz-transform:scale(.42,.42);
+	-o-transform:scale(.42,.42);  
+	-webkit-transform:scale(.42,.42); 
+}
+.llamanos{
+	background-position: -766px -423px ;
+	width: 189px;
+	height: 189px;
+}
+.ubicanos{
+	background-position: -777px -220px ;
+	width: 189px;
+	height: 189px;
+}
+.contactanos{
+	background-position: -567px -221px ;
+	width: 189px;
+	height: 189px;
+}  
+
+
+.c-wathsapp, .c-twitter, .c-telefono, .c-sms, .c-skype, .c-secure-web, .c-pinterest, .c-linkedin, .c-fax, .c-facebook, .c-email, .c-cel, .descuento, .usuario, .infoAd, .perfil, .direccion, .promociones, .contacto, .c-google, .imagenes, .showP, .whatsapp, .twitter, .sms, .google, .facebook, .email, .ubicacion, .hideP, .video, .anuncioSugerido, .logo, .btnContacto{
+	background: url("../images/sprite_deskV2.png") no-repeat ; 
+	 
+}
+
+.c-wathsapp{
+	background-position: -206px -321px ;
+	width: 22px;
+	height: 23px;
+}
+
+.c-twitter{
+	background-position: -264px -295px ;
+	width: 22px;
+	height: 22px;
+}
+
+.c-telefono{
+	background-position: -239px -297px ;
+	width: 18px;
+	height: 19px;
+}
+
+.c-sms{
+	background-position: -210px -294px ;
+	width: 21px;
+	height: 22px;
+}
+
+.c-skype{
+	background-position: -234px -266px ;
+	width: 22px;
+	height: 22px;
+}
+
+.c-secure-web{
+	background-position: -270px -267px ;
+	width: 15px;
+	height: 21px;
+}
+
+.c-pinterest{
+	background-position: -206px -265px ;
+	width: 22px;
+	height: 22px;
+}
+
+.c-linkedin{
+	background-position: -269px -239px ;
+	width: 22px;
+	height: 22px;
+}
+
+.c-fax{
+	background-position: -207px -237px ;
+	width: 22px;
+	height: 18px;
+}
+
+.c-facebook{
+	background-position: -265px -209px ;
+	width: 22px;
+	height: 21px;
+}
+
+.c-email{
+	background-position: -229px -201px ;
+	width: 24px;
+	height: 22px;
+}
+
+.c-cel{
+	background-position: -209px -205px ;
+	width: 12px;
+	height: 22px;
+}
+
+.descuento{
+	background-position: -207px -100px ;
+	width: 100px;
+	height: 100px;
+}
+
+.usuario{
+	background-position: -210px -4px ;
+	width: 90px;
+	height: 90px;
+}
+
+.infoAd{
+	background-position: -113px -66px ;
+	width: 55px;
+	height: 55px;
+}
+
+.perfil{
+	background-position: -111px -186px ;
+	width: 55px;
+	height: 55px;
+}
+
+.direccion{
+	background-position: -110px -246px ;
+	width: 55px;
+	height: 55px;
+}
+
+.promociones{
+	background-position: -314px -180px ;
+	width: 55px;
+	height: 55px;
+}
+
+.contacto{
+	background-position: -314px -120px ;
+	width: 55px;
+	height: 55px;
+}
+
+.c-google{
+	background-position: -237px -237px ;
+	width: 22px;
+	height: 22px;
+}
+
+.imagenes{
+	background-position: -113px -129px ;
+	width: 55px;
+	height: 55px;
+}
+
+.showP{
+	background-position: -265px -331px ;
+	width: 15px;
+	height: 13px;
+}
+
+.ubicacion{
+	background-position: -315px -2px ;
+	width: 55px;
+	height: 55px;
+}
+
+.hideP{
+	background-position: -242px -331px ;
+	width: 15px;
+	height: 13px;
+}
+
+.video{
+	background-position: -110px -5px ;
+	width: 55px;
+	height: 55px;
+}
+
+.anuncioSugerido{
+	background-position: -314px -60px ;
+	width: 55px;
+	height: 55px;
+}
+
+.logo{
+	background-position: -26px -303px ;
+	width: 150px;
+	height: 29px;
+}
+
+.sms{
+	background-position: -393px -11px ;
+	width: 50px;
+	height: 50px;
+}
+
+.twitter{
+	background-position: -393px -71px ;
+	width: 50px;
+	height: 50px;
+}
+
+.whatsapp{
+	background-position: -395px -131px ;
+	width: 50px;
+	height: 49px;
+}
+
+.facebook{
+	background-position: -396px -190px ;
+	width: 50px;
+	height: 51px;
+}
+
+.email{
+	background-position: -398px -249px ;
+	width: 50px;
+	height: 50px;
+}
+
+.google{
+	background-position: -325px -250px ;
+	width: 50px;
+	height: 50px;
+}
+.btnContacto{
+	background-position: -347px -321px ;
+	width: 85px;
+	height: 30px;
+}
+
+@media screen and (max-width: 640px) and (min-width: 240px){
+	 .usuario, .infoAd, .perfil, .direccion, .promociones, .contacto, .c-google, .imagenes,.ubicacion, .video, .anuncioSugerido,.btnContacto{
+	background: url("../images/sprite_mov_150_dpi.png") no-repeat ;  
+	 transform:scale(.20,.20); 
+	-moz-transform:scale(.20,.20);
+	-o-transform:scale(.20,.20);  
+	-webkit-transform:scale(.20,.20); 
+ 
+} 
+   /* .descuento,
+	.descuento{
+		background-position: -550px -2px ;
+		width: 210px;
+		height: 210px;
+	} */
+	
+	.usuario{
+		background-position: -776px -8px ;
+		width: 190px;
+		height: 190px;
+	}
+	
+	.infoAd{
+		background-position: -404px -83px ;
+		width: 130px;
+		height: 131px;
+	}
+	
+	.perfil{
+		background-position: -268px -88px ;
+		width: 130px;
+		height: 131px;
+	}
+	
+	.direccion{
+		background-position: -404px -356px ;
+		width: 130px;
+		height: 131px;
+	}
+	
+	.promociones{
+		background-position: -598px -429px ;
+		width: 130px;
+		height: 131px;
+	}
+	
+	.contacto{
+		background-position: -268px -220px ;
+		width: 130px;
+		height: 131px;
+	}
+	
+	.c-google{
+		background-position: -237px -237px ;
+		width: 22px;
+		height: 22px;
+	}
+	
+	.imagenes{
+		background-position: -404px -220px ;
+		width: 130px;
+		height: 130px;
+	}
+	
+	
+	
+	.ubicacion{
+		background-position: -133px -86px ;
+		width: 130px;
+		height: 130px;
+	}
+	
+	
+	.video{
+		background-position: -2px -86px ;
+		width: 130px;
+		height: 130px;
+	}
+	
+	.anuncioSugerido{
+		background-position: -268px -354px ;
+		width: 130px;
+		height: 130px;
+	} 
+	.btnContacto{
+		background-position: -347px -321px ;
+		width: 85px;
+		height: 30px;
+	}
+}
+
+@media screen and (max-width: 640px) and (min-width: 240px){
+	 .whatsapp, .twitter, .sms, .google, .facebook, .email, .logo, .hideP, .showP{
+	background: url("../images/sprite_mov_150_dpi.png") no-repeat ;  
+	 transform:scale(.35,.35); 
+	-moz-transform:scale(.35,.35);
+	-o-transform:scale(.35,.35);  
+	-webkit-transform:scale(.35,.35); 
+ 
+}  
+	
+	.sms{
+		background-position: -169px 1px ;
+		width: 75px;
+		height: 75px;
+	}
+	
+	.twitter{
+		background-position: -84px 1px ;
+		width: 75px;
+		height: 75px;
+	}
+	
+	.whatsapp{
+		background-position: -5px -1px ;
+		width: 75px;
+		height: 75px;
+	}
+	
+	.facebook{
+		background-position: -351px -3px ;
+		width: 75px;
+		height: 75px;
+	}
+	
+	.email{
+		background-position: -442px -3px ;
+		width: 75px;
+		height: 75px;
+	}
+	
+	.google{
+		background-position: -257px -3px ;
+		width: 75px;
+		height: 75px;
+	} 
+	
+	.logo{
+		background-position: -29px -224px ;
+		width: 212px;
+		height: 42px;
+	}
+	.showP{
+		background-position: -6px -284px ;
+		width: 35px;
+		height: 30px;
+	}
+	.hideP{
+		background-position: -53px -285px ;
+		width: 35px;
+		height: 30px;
+	}
+}
+@media screen and (max-width: 640px) and (min-width: 240px){
+	.c-cel, .c-email, .c-facebook, .c-fax, .c-google, .c-linkedin, .c-pinterest, .c-secure-web, .c-skype, .c-sms, .c-telefono, .c-twitter, .c-wathsapp{
+		background: url("../images/sprite_mov_72_dpiV2.png") no-repeat; 
+	} 
+	.c-cel{
+		background-position: -68px -221px ;
+		width: 12px;
+		height: 22px;
+	}
+	
+	.c-email{
+		background-position: -38px -222px ;
+		width: 24px;
+		height: 22px;
+	}
+	
+	.c-facebook{
+		background-position: -4px -220px ;
+		width: 22px;
+		height: 21px;
+	}
+	
+	.c-fax{
+		background-position: -91px -191px ;
+		width: 22px;
+		height: 18px;
+	}
+	
+	.c-google{
+		background-position: -59px -189px ;
+		width: 22px;
+		height: 22px;
+	}
+	
+	.c-linkedin{
+		background-position: -30px -188px ;
+		width: 22px;
+		height: 22px;
+	} 
+	
+	.c-pinterest{
+		background-position: -3px -195px ;
+		width: 22px;
+		height: 22px;
+	}
+	
+	.c-secure-web{
+		background-position: -109px -162px ;
+		width: 17px;
+		height: 23px;
+	}
+	
+	.c-skype{
+		background-position: -79px -160px ;
+		width: 22px;
+		height: 22px;
+	}
+	
+	.c-sms{
+		background-position: -54px -160px ;
+		width: 22px;
+		height: 22px;
+	}
+	
+	.c-telefono{
+		background-position: -30px -161px ;
+		width: 18px;
+		height: 19px;
+	}
+	
+	.c-twitter{
+		background-position: 0px -160px ;
+		width: 22px;
+		height: 22px;
+	}
+	
+	.c-wathsapp{
+		background-position: -54px -139px ;
+		width: 22px;
+		height: 23px;
+	} 
+}
+ 
+ 

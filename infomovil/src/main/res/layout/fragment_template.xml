@@ -1,0 +1,68 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fadeScrollbars="false"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:id="@+id/layoutTemplate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    	android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imagenTemplate"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btnyoutube" />
+
+        <LinearLayout
+            android:id="@+id/layoutBotones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imgIcono"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/btnseleccionado" />
+
+            <TextView
+                android:id="@+id/TxtTituloTemplate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4.5"
+                android:gravity="center"
+                android:text="Titulo"
+                android:layout_marginRight="5dp"
+                android:textSize="17sp" />
+
+            <com.infomovil.infomovil.gui.common.ButtonWithFont
+                android:id="@+id/BtnVerEjemplo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4.5"
+                android:background="@drawable/btnverejemplo"
+                android:gravity="center"
+                android:text="@string/txtVerEjemplo"
+                android:textColor="@color/colorBlanco"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TxtDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mi descripción" />
+    </LinearLayout>
+
+</ScrollView>

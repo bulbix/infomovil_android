@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:fadeScrollbars="false" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/layoutImgYoutube"
+                android:layout_width="192dp"
+                android:layout_height="112dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp" >
+
+                <ImageView
+                    android:id="@+id/imgYoutube"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="playVideo" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/btnplay" />
+                
+                <Button
+                    android:id="@+id/botonBorrarVideo"
+                    android:layout_width="29dp"
+                    android:layout_height="35dp"
+                    android:layout_toRightOf="@+id/imgYoutube"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/basurero"
+                    android:onClick="borrarDatos"
+                    android:visibility="gone" />
+                                
+            </RelativeLayout>
+
+            <com.infomovil.infomovil.gui.common.TextWithFont
+                android:id="@+id/lblDatosVideo"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layoutImgYoutube"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="@string/txtDatosVideo"
+                android:textColor="@color/colorFuenteVerde"
+                android:textSize="19sp" />
+
+            <com.infomovil.infomovil.gui.common.TextWithFont
+                android:id="@+id/lblTitulo"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblDatosVideo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="@string/tituloTituloAcento"
+                android:textColor="@color/colorFuenteVerde"
+                android:textSize="19sp" />
+
+            <com.infomovil.infomovil.gui.common.EditTextWithFont
+                android:id="@+id/txtTitulo"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/lblTitulo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_border"
+                android:inputType="textMultiLine"
+                android:maxLength="255"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorFuenteAzul"
+                android:textSize="19sp" />
+
+            <com.infomovil.infomovil.gui.common.TextWithFont
+                android:id="@+id/lblDescripcion"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtTitulo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="@string/txtDescripcion"
+                android:textColor="@color/colorFuenteVerde"
+                android:textSize="19sp" />
+
+            <com.infomovil.infomovil.gui.common.EditTextWithFont
+                android:id="@+id/txtDescripcion"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/lblDescripcion"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_border"
+                android:inputType="textMultiLine"
+                android:maxLength="10"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorFuenteAzul"
+                android:textSize="19sp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

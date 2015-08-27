@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.infomovil.infomovil.MainActivity" >
+
+    <item
+        android:id="@+id/action_estadisticas"
+        android:orderInCategory="100"
+        android:icon="@drawable/reportes"
+        android:showAsAction="never"
+        android:title="@string/txtEstadisticasMenu"/>
+    
+    <item
+        android:id="@+id/action_compartir"
+        android:orderInCategory="100"
+        android:icon="@drawable/compartir"
+        android:showAsAction="never"
+        android:title="@string/txtCompartirMenu"/>
+    
+    <item
+        android:id="@+id/action_cuenta"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@drawable/cuenta"
+        android:title="@string/txtCuentaMenu"/>
+    
+    <item
+        android:id="@+id/action_configuracion"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@drawable/configuracion"
+        android:title="@string/txtConfiguracionMenu"/>
+    
+    <item
+        android:id="@+id/action_noticias"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@drawable/configuracion"
+        android:title="@string/txtNoticiasMenu"/>
+    
+     <item
+        android:id="@+id/action_salir"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@drawable/configuracion"
+        android:title="@string/salirCuenta"/>
+    
+
+</menu>
