@@ -113,5 +113,12 @@ public class URLImageView extends RelativeLayout {
 	private static Drawable getDrawableFromUrl(final String url) throws IOException, MalformedURLException {
 		return Drawable.createFromStream(((java.io.InputStream) new java.net.URL(url).getContent()), "name");
 	}
-	
+
+	public ImageView getmImage() {
+		return mImage;
+	}
+
+	public void setmImage(ImageView mImage) {
+		this.mImage = mImage;
+	}
 }

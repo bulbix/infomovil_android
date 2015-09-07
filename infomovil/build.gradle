@@ -54,4 +54,5 @@ dependencies {
     compile files('libs/madrobotbeans-0.1.jar')
     compile files('libs/property-list-2.0.0.jar')
     compile files('libs/sun.misc.BASE64Decoder.jar')
+    compile 'com.squareup.picasso:picasso:2.5.2'
 }

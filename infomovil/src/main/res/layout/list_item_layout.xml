@@ -4,12 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <com.infomovil.infomovil.gui.widget.URLImageView
+    <ImageView
         android:id="@+id/userVideoThumbImageView"
         android:layout_margin="10dp"
         android:layout_width="150dp"
         android:layout_height="150dp" >
-    </com.infomovil.infomovil.gui.widget.URLImageView>
+    </ImageView>
     
     <com.infomovil.infomovil.gui.common.TextWithFont
         android:id="@+id/userVideoTitleTextView"

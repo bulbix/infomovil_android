@@ -234,6 +234,9 @@ public class GaleriaPaso2Activity extends InfomovilFragment implements WsInfomov
 				if (galeryType == PhotoGaleryType.PhotoGaleryTypeImage) {
 					imagenActual = arrayImagenes.get(indiceSeleccionado);
 				}
+				else{
+					imagenActual = new WS_ImagenVO();
+				}
 
 			} else {
 				imagenActual = new WS_ImagenVO();
@@ -444,10 +447,23 @@ public class GaleriaPaso2Activity extends InfomovilFragment implements WsInfomov
 					if (galeryType == PhotoGaleryType.PhotoGaleryTypeOffer) {
 						datosUsuario.setAgregoImagenPromocion(true);
 					}
-					System.gc();
+					//System.gc();
 					Bitmap bitmap = BitmapFactory.decodeFile(path);
-					
-					infomovilInterface.loadFragment(this, null, "GaleriaPaso2");
+
+					switch(galeryType){
+						case PhotoGaleryTypeImage:
+							infomovilInterface.loadFragment(this, null, "GaleriaPaso2");
+							break;
+						case PhotoGaleryTypeOffer:
+							infomovilInterface.loadFragment(this, null, "PromocionesImagen");
+							break;
+						case PhotoGaleryTypeLogo:
+							infomovilInterface.loadFragment(this, null, "ImagenLogo");
+					}
+
+
+
+
 					
 					SaveImageFromCamera saveImage = new SaveImageFromCamera();
 					saveImage.execute(bitmap);
@@ -562,7 +578,7 @@ public class GaleriaPaso2Activity extends InfomovilFragment implements WsInfomov
 			Intent intent = new Intent();
 			intent.putExtra("pathImage", galeryImage);
 			activity.setResult(Activity.RESULT_OK, intent);
-		} 
+		}
 //		else {
 //			if (modifico) {
 //				alerta = new AlertView(activity,
@@ -768,7 +784,10 @@ public class GaleriaPaso2Activity extends InfomovilFragment implements WsInfomov
 			if (galeryType == PhotoGaleryType.PhotoGaleryTypeImage) {
 				imagenActual = arrayImagenes.get(indiceSeleccionado);
 			} else if (galeryType == PhotoGaleryType.PhotoGaleryTypeLogo) {
-				imagenActual = datosUsuario.getImagenLogo();
+				imagenActual = new WS_ImagenVO();
+
+				if(datosUsuario.getImagenLogo() != null)
+					imagenActual = datosUsuario.getImagenLogo();
 			} else {
 				imagenActual = new WS_ImagenVO();
 				

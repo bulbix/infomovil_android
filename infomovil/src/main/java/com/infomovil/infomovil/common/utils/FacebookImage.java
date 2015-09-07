@@ -50,7 +50,7 @@ public class FacebookImage {
 		Bundle params = new Bundle();
 		params.putString("fields", "count,name,id,picture");
 
-		if (session.isOpened()) {
+		if (session!= null && session.isOpened()) {
 			new Request(
 					session,
 					"/me/albums",
@@ -104,7 +104,7 @@ public class FacebookImage {
 		}
 		else{
 			progressDialog.dismiss();
-			session.closeAndClearTokenInformation();
+			//session.closeAndClearTokenInformation();
 			Session.openActiveSession(activity, true, Arrays.asList("email","user_photos"), new Session.StatusCallback() {
 				
 				@Override
@@ -126,7 +126,7 @@ public class FacebookImage {
 				activity.getResources().getString(R.string.txtCargandoDefault), true, false);
 		
 		final Session session = Session.getActiveSession();
-		if (session.isOpened()) {
+		if (session!= null && session.isOpened()) {
 			new Request(
 					session,
 					String.format("/%s/photos",idAlbum),
@@ -144,6 +144,7 @@ public class FacebookImage {
 
 								for(int k=0; k < photos.length(); k++){
 									JSONArray images  = photos.getJSONObject(k).getJSONArray("images");
+									Log.i("images", images.toString());
 									JSONObject photo = images.getJSONObject(images.length()-1);
 									//int idPhoto = photo.getInt("id");
 									//String namePhoto = photo.getString("caption");
@@ -191,7 +192,7 @@ public class FacebookImage {
 														
 													}
 													
-												}).execute(item.getLinkImagen());
+												}).execute(item.getLinkImagenFull());
 
 											} 
 											

@@ -8,19 +8,24 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 
 import com.infomovil.infomovil.R;
 import com.infomovil.infomovil.gui.common.TextWithFont;
 import com.infomovil.infomovil.gui.widget.URLImageView;
 import com.infomovil.infomovil.model.ItemSelectModel;
+import com.squareup.picasso.Picasso;
 
 public class ItemSelectAdapter extends BaseAdapter {
 	
 	List<ItemSelectModel> videosList;
 	private LayoutInflater inflate;
+	private Context context;
 	
 	public ItemSelectAdapter(Context context, List<ItemSelectModel> videos) {
 		videosList = videos;
+		this.notifyDataSetChanged();
+		this.context = context;
 		inflate = LayoutInflater.from(context);
 	}
 
@@ -44,11 +49,10 @@ public class ItemSelectAdapter extends BaseAdapter {
 		if(convertView == null) {
 			convertView = inflate.inflate(R.layout.list_item_layout, null);
 		}
-		URLImageView thumb = (URLImageView) convertView.findViewById(R.id.userVideoThumbImageView);
+		ImageView thumb = (ImageView) convertView.findViewById(R.id.userVideoThumbImageView);
 		TextWithFont title = (TextWithFont) convertView.findViewById(R.id.userVideoTitleTextView);
 		ItemSelectModel video = videosList.get(position);
-		thumb.setImageDrawable(video.getLinkImagen());
-		// Set the title for the list item
+		Picasso.with(context).load(video.getLinkImagen()).into(thumb);
 		title.setText(video.getTitulo());
 		return convertView;
 	}
