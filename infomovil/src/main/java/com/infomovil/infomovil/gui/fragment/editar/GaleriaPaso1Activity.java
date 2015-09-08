@@ -53,7 +53,7 @@ public class GaleriaPaso1Activity extends InfomovilFragment {
 				modifico = true;
 				imagenAdapter.getListAdapter().remove(from);
 				imagenAdapter.getListAdapter().add(to, item);
-					imagenAdapter.notifyDataSetChanged();
+				imagenAdapter.notifyDataSetChanged();
 			}
 			else{
 				tablaImagenes.cancelDrag();
@@ -160,6 +160,8 @@ public class GaleriaPaso1Activity extends InfomovilFragment {
 		else {
 			arregloEstatus[indiceSeleccionado] = false;
 		}
+
+		infomovilInterface.returnFragment("");
 	}
 
 	protected void initAdapter() {

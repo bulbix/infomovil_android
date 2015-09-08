@@ -376,7 +376,7 @@ public class GaleriaPaso2Activity extends InfomovilFragment implements WsInfomov
 			Intent gallerypickerIntent = new Intent(Intent.ACTION_PICK);
 			gallerypickerIntent.setType("image/*");
 			startActivityForResult(gallerypickerIntent,
-					InfomovilConstants.REQUEST_OTHER);
+                    InfomovilConstants.REQUEST_OTHER);
 		}
 	}
 
@@ -391,8 +391,10 @@ public class GaleriaPaso2Activity extends InfomovilFragment implements WsInfomov
 
 	@Override
 	public void resultActivityCall(int requestCode, int resultCode, Intent data) {
-		
-		Session.getActiveSession().onActivityResult(this.getActivity(), requestCode, resultCode, data);
+
+        if(Session.getActiveSession() != null) {
+            Session.getActiveSession().onActivityResult(this.getActivity(), requestCode, resultCode, data);
+        }
 		 
 		switch (requestCode) {
 		case InfomovilConstants.REQUEST_CAMERA:
@@ -460,10 +462,6 @@ public class GaleriaPaso2Activity extends InfomovilFragment implements WsInfomov
 						case PhotoGaleryTypeLogo:
 							infomovilInterface.loadFragment(this, null, "ImagenLogo");
 					}
-
-
-
-
 					
 					SaveImageFromCamera saveImage = new SaveImageFromCamera();
 					saveImage.execute(bitmap);
@@ -528,19 +526,18 @@ public class GaleriaPaso2Activity extends InfomovilFragment implements WsInfomov
 				estaBorrando = false;
 				estaEditando = false;
 				botonBorrar.setEnabled(false);
-			} else {
-				if (galeryType == PhotoGaleryType.PhotoGaleryTypeLogo) {
-					datosUsuario.getEstatusEdicion()[1] = true;
-//					Intent intent = new Intent();
-//					intent.putExtra("banderaModifico", 1);
-//					activity.setResult(Activity.RESULT_OK, intent);
-					infomovilInterface.returnFragment("MenuCrear");
-				}
-				else {
-					infomovilInterface.returnFragment("GaleriaPaso1");
-				}
-				
 			}
+
+            switch(galeryType){
+                case PhotoGaleryTypeImage:
+                    infomovilInterface.returnFragment("GaleriaPaso1");
+                    break;
+                case PhotoGaleryTypeOffer:
+                    infomovilInterface.returnFragment("PromocionesFragment");
+                    break;
+                case PhotoGaleryTypeLogo:
+                    infomovilInterface.returnFragment("MenuCrear");
+            }
 
 		}
 	}
@@ -560,12 +557,12 @@ public class GaleriaPaso2Activity extends InfomovilFragment implements WsInfomov
 
 	public void accionNo() {
 		super.accionNo();
-		infomovilInterface.returnFragment("");
+
+
 	}
 
 	@Override
 	public void keyDownAction() {
-		super.keyDownAction();
 		Log.d("infomovilLog", "Presionando back button");
 		if (galeryType == PhotoGaleryType.PhotoGaleryTypeOffer) {
 			if (imageBitmap != null) {
@@ -579,21 +576,17 @@ public class GaleriaPaso2Activity extends InfomovilFragment implements WsInfomov
 			intent.putExtra("pathImage", galeryImage);
 			activity.setResult(Activity.RESULT_OK, intent);
 		}
-//		else {
-//			if (modifico) {
-//				alerta = new AlertView(activity,
-//						AlertViewType.AlertViewTypeQuestion, getResources()
-//						.getString(R.string.txtPreguntaSalir));
-//				alerta.setDelegado(this);
-//				alerta.show();
-//			} else {
-//				if (galeryType == PhotoGaleryType.PhotoGaleryTypeLogo) {
-//					Intent intent = new Intent();
-//					intent.putExtra("banderaModifico", banderaModifico);
-//					activity.setResult(Activity.RESULT_OK, intent);
-//				}
-//			}
-//		}
+
+        switch(galeryType){
+            case PhotoGaleryTypeImage:
+                infomovilInterface.returnFragment("GaleriaPaso1");
+                break;
+            case PhotoGaleryTypeOffer:
+                infomovilInterface.returnFragment("PromocionesFragment");
+                break;
+            case PhotoGaleryTypeLogo:
+                infomovilInterface.returnFragment("MenuCrear");
+        }
 	}
 
 	@Override
@@ -753,6 +746,10 @@ public class GaleriaPaso2Activity extends InfomovilFragment implements WsInfomov
 			estaEditando = false;
 			//imageBitmap = null;
 			botonBorrar.setEnabled(false);
+            datosUsuario.getPromocionDominio().setImageClobOffer("");
+
+            infomovilInterface.returnFragment("PromocionesFragment");
+
 		} else {
 			WsInfomovilCall wsCall = new WsInfomovilCall(this,getActivity());
 			if (galeryType == PhotoGaleryType.PhotoGaleryTypeImage) {
@@ -763,6 +760,7 @@ public class GaleriaPaso2Activity extends InfomovilFragment implements WsInfomov
 				imagenActual = datosUsuario.getImagenLogo();
 			}
 			estaBorrando = true;
+            estaEditando = false;
 			WS_DeleteItem deleteItem = new WS_DeleteItem(datosUsuario.getDomainid(), imagenActual.getIdImagen());
 			wsCall.setDeleteItem(deleteItem);
 			wsCall.execute(WSInfomovilMethods.DELETE_IMAGE);

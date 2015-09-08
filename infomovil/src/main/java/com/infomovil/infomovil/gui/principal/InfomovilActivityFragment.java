@@ -177,7 +177,7 @@ public class InfomovilActivityFragment extends InfomovilActivity implements Info
 		}
 		else {
 		    infomovilFragment = (InfomovilFragment)fm.findFragmentByTag(name);
-		    fm.popBackStack(name,0);
+		    fm.popBackStack(name, 0);
 		}
 	}
 	
@@ -218,7 +218,6 @@ public class InfomovilActivityFragment extends InfomovilActivity implements Info
 						public void accionNo() {
 							alertPregunta.dismiss();
 							infomovilFragment.keyDownAction();
-							returnFragment("");							
 						}
 						
 						@Override
@@ -231,7 +230,6 @@ public class InfomovilActivityFragment extends InfomovilActivity implements Info
 				}
 				else{
 					infomovilFragment.keyDownAction();
-					returnFragment("");
 				}
 			}
 				

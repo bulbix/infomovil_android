@@ -250,16 +250,7 @@ public class ContactosPaso1Activity extends InfomovilFragment implements EnableC
 		if (isEditingMode && modifico) {
 			datosUsuario.setListaContactos(listaAuxiliarContactos);
 		}
-		
-//		boolean arregloEstatus[] = 
-//				datosUsuario.getEstatusEdicion();
-//		if (listaContactos.size() > 0) {
-//			arregloEstatus[indiceSeleccionado] = true;
-//		}
-//		else {
-//			arregloEstatus[indiceSeleccionado] = false;
-//		}
-//		datosUsuario.setEstatusEdicion(arregloEstatus);
+		infomovilInterface.returnFragment("");
 	}
 	 
 	public void acomodaVista() {

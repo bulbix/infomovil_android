@@ -331,9 +331,8 @@ public class PromocionesActivity extends InfomovilFragment {
 
 	@Override
 	public void keyDownAction() {
-		Log.d("infomovilLog", "Presionando back button");		
-//		datosUsuario.setAgregoImagenPromocion(false);
-//		datosUsuario.setRutaPromocion(null);
+		Log.d("infomovilLog", "Presionando back button");
+		infomovilInterface.returnFragment("");
 	}
 
 	public void mostrarFecha(View v) {

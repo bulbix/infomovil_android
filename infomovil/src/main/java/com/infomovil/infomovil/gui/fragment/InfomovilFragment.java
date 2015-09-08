@@ -58,8 +58,12 @@ public abstract class InfomovilFragment extends Fragment implements AlertViewInt
 	public abstract void resultActivityCall(int requestCode, int resultCode, Intent data);
 	public abstract void acomodaVista();
 	public abstract void agregarNuevoItem();
-	public abstract void organizarTabla();	
-	public void keyDownAction(){}	
+	public abstract void organizarTabla();
+
+	public void keyDownAction(){
+		infomovilInterface.returnFragment("");
+	}
+
 	public abstract String validarCampos();
 	
 	

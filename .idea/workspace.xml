@@ -6,10 +6,22 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9223fc90-0465-472f-a1b5-54ffb371f330" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/ContactosPaso1Activity.java" afterPath="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/ContactosPaso1Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/GaleriaPaso1Activity.java" afterPath="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/GaleriaPaso1Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/GaleriaPaso2Activity.java" afterPath="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/GaleriaPaso2Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/principal/InfomovilActivityFragment.java" afterPath="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/principal/InfomovilActivityFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/InfomovilFragment.java" afterPath="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/InfomovilFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/InformacionAdicionalActivity.java" afterPath="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/InformacionAdicionalActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/PromocionesActivity.java" afterPath="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/PromocionesActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Infomovil.iws" />
@@ -39,19 +51,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GaleriaPaso2Activity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GaleriaPaso2Activity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/GaleriaPaso2Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="426" column="13" selection-start-line="426" selection-start-column="13" selection-end-line="426" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.8215223">
+              <caret line="739" column="45" selection-start-line="739" selection-start-column="45" selection-end-line="739" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#initResume#0;class#GaleriaPaso2Activity#0" expanded="false" />
-                <element signature="e#26374#26375#0" expanded="true" />
-                <element signature="e#26402#26403#0" expanded="true" />
-                <element signature="e#26460#26461#0" expanded="true" />
-                <element signature="e#26503#26504#0" expanded="true" />
+                <element signature="e#4892#4944#0" expanded="true" />
+                <element signature="e#5606#5631#0" expanded="true" />
+                <element signature="e#11053#11105#0" expanded="true" />
+                <element signature="e#11390#11391#0" expanded="true" />
+                <element signature="e#11426#11427#0" expanded="true" />
+                <element signature="e#13883#13932#0" expanded="true" />
+                <element signature="e#16135#16167#0" expanded="true" />
+                <element signature="class#EditTextWithFontWatcher#0;class#GaleriaPaso2Activity#0" expanded="false" />
+                <element signature="e#26475#26476#0" expanded="true" />
+                <element signature="e#26499#26500#0" expanded="true" />
+                <element signature="e#26537#26538#0" expanded="true" />
+                <element signature="e#26565#26566#0" expanded="true" />
+                <element signature="e#26623#26624#0" expanded="true" />
+                <element signature="e#26666#26667#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WsInfomovilResponse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/webservicecalls/wsinfomovil/WsInfomovilResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="366" column="16" selection-start-line="366" selection-start-column="16" selection-end-line="366" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WsInfomovilCall.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/webservicecalls/wsinfomovil/WsInfomovilCall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="411" column="0" selection-start-line="411" selection-start-column="0" selection-end-line="411" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,104 +100,125 @@
       <file leaf-file-name="InfomovilFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/InfomovilFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="61" column="29" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="URLImageView.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/widget/URLImageView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34105262">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            <state vertical-scroll-proportion="-7.3333335">
+              <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
               <folding>
-                <element signature="e#1947#2298#0" expanded="true" />
-                <element signature="e#2297#2298#0" expanded="true" />
-                <element signature="e#2443#2860#0" expanded="true" />
-                <element signature="e#2859#2860#0" expanded="true" />
-                <element signature="e#3261#3262#0" expanded="true" />
-                <element signature="e#3281#3282#0" expanded="true" />
-                <element signature="e#3325#3326#0" expanded="true" />
-                <element signature="e#3352#3353#0" expanded="true" />
+                <element signature="e#2445#2446#0" expanded="true" />
+                <element signature="e#2489#2490#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FacebookImage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/common/utils/FacebookImage.java">
+      <file leaf-file-name="PlayVideoFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/PlayVideoFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="177" column="76" selection-start-line="177" selection-start-column="76" selection-end-line="177" selection-end-column="76" />
+              <caret line="183" column="16" selection-start-line="183" selection-start-column="16" selection-end-line="183" selection-end-column="16" />
               <folding>
-                <element signature="e#3054#3408#0" expanded="true" />
-                <element signature="e#3407#3408#0" expanded="true" />
-                <element signature="e#5910#7552#0" expanded="true" />
-                <element signature="e#7551#7552#0" expanded="true" />
+                <element signature="e#5338#5339#0" expanded="true" />
+                <element signature="e#5380#5381#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StreamUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/common/utils/StreamUtils.java">
+      <file leaf-file-name="InfomovilActivityFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/principal/InfomovilActivityFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+              <caret line="231" column="38" selection-start-line="231" selection-start-column="38" selection-end-line="231" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PromocionesActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/PromocionesActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.333334">
+              <caret line="129" column="56" selection-start-line="129" selection-start-column="22" selection-end-line="129" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InformacionAdicionalActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/InformacionAdicionalActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.814815">
+              <caret line="191" column="16" selection-start-line="191" selection-start-column="16" selection-end-line="191" selection-end-column="16" />
               <folding>
-                <element signature="e#2382#2383#0" expanded="true" />
-                <element signature="e#2437#2438#0" expanded="true" />
+                <element signature="e#2458#2489#0" expanded="true" />
+                <element signature="e#2760#2787#0" expanded="true" />
+                <element signature="e#2910#2967#0" expanded="true" />
+                <element signature="e#3087#3144#0" expanded="true" />
+                <element signature="e#3805#3837#0" expanded="true" />
+                <element signature="e#3917#3949#0" expanded="true" />
+                <element signature="e#6348#6373#0" expanded="true" />
+                <element signature="e#7932#7957#0" expanded="true" />
+                <element signature="e#8250#8318#0" expanded="true" />
+                <element signature="e#8462#8518#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeleccionarImagenFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/SeleccionarImagenFragment.java">
+      <file leaf-file-name="ContactosPaso1Activity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/ContactosPaso1Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="96" column="72" selection-start-line="96" selection-start-column="72" selection-end-line="96" selection-end-column="72" />
-              <folding />
+            <state vertical-scroll-proportion="-10.148149">
+              <caret line="251" column="9" selection-start-line="251" selection-start-column="9" selection-end-line="251" selection-end-column="9" />
+              <folding>
+                <element signature="e#2926#2953#0" expanded="true" />
+                <element signature="e#3350#3377#0" expanded="true" />
+                <element signature="e#6326#6346#0" expanded="true" />
+                <element signature="e#6503#6530#0" expanded="true" />
+                <element signature="e#6832#6859#0" expanded="true" />
+                <element signature="e#6937#6964#0" expanded="true" />
+                <element signature="e#7340#7386#0" expanded="true" />
+                <element signature="e#7515#7561#0" expanded="true" />
+                <element signature="e#8726#8753#0" expanded="true" />
+                <element signature="e#10262#10315#0" expanded="true" />
+                <element signature="e#12001#12060#0" expanded="true" />
+                <element signature="e#12608#12661#0" expanded="true" />
+                <element signature="e#14139#14196#0" expanded="true" />
+                <element signature="e#14340#14394#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemSelectAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/adapter/ItemSelectAdapter.java">
+      <file leaf-file-name="GaleriaPaso1Activity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/GaleriaPaso1Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_item_layout.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/infomovil/src/main/res/layout/list_item_layout.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.3448277">
-              <caret line="7" column="48" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImagenesAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/adapter/ImagenesAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-              <folding />
+            <state vertical-scroll-proportion="-4.296296">
+              <caret line="270" column="23" selection-start-line="270" selection-start-column="12" selection-end-line="270" selection-end-column="23" />
+              <folding>
+                <element signature="e#2990#3016#0" expanded="true" />
+                <element signature="e#3226#3253#0" expanded="true" />
+                <element signature="e#3394#3447#0" expanded="true" />
+                <element signature="e#4461#4485#0" expanded="true" />
+                <element signature="e#4559#4583#0" expanded="true" />
+                <element signature="e#5421#5480#0" expanded="true" />
+                <element signature="e#5602#5661#0" expanded="true" />
+                <element signature="e#6795#6815#0" expanded="true" />
+                <element signature="e#8878#8898#0" expanded="true" />
+                <element signature="e#9179#9235#0" expanded="true" />
+                <element signature="e#9379#9432#0" expanded="true" />
+                <element signature="e#10388#10447#0" expanded="true" />
+                <element signature="e#10698#10754#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/../../Certificado/mykey" />
+    <option name="KEY_ALIAS" value="infoprod" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -6554,11 +6616,22 @@
         <option value="$PROJECT_DIR$/infomovil/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/common/utils/FacebookImage.java" />
         <option value="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/widget/URLImageView.java" />
-        <option value="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/GaleriaPaso1Activity.java" />
         <option value="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/widget/ItemListView.java" />
         <option value="$PROJECT_DIR$/infomovil/build.gradle" />
         <option value="$PROJECT_DIR$/infomovil/src/main/res/layout/list_item_layout.xml" />
         <option value="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/adapter/ItemSelectAdapter.java" />
+        <option value="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/principal/InfomovilActivityFragment.java" />
+        <option value="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/MenuCrearQuickStartFragment.java" />
+        <option value="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/MenuCrearActivity.java" />
+        <option value="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/InformacionAdicionalPaso2Activity.java" />
+        <option value="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/DireccionActivity.java" />
+        <option value="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/DescripcionActivity.java" />
+        <option value="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/ContactoPaso2Fragment.java" />
+        <option value="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/InfomovilFragment.java" />
+        <option value="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/GaleriaPaso1Activity.java" />
+        <option value="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/InformacionAdicionalActivity.java" />
+        <option value="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/ContactosPaso1Activity.java" />
+        <option value="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/PromocionesActivity.java" />
         <option value="$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/GaleriaPaso2Activity.java" />
       </list>
     </option>
@@ -6612,7 +6685,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="AndroidView" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -6641,11 +6714,213 @@
               <option name="myItemId" value="Infomovil" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil_androidstudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Infomovil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil_androidstudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Infomovil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil_androidstudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Infomovil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil_androidstudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Infomovil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil_androidstudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Infomovil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil_androidstudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fragment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Infomovil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil_androidstudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fragment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="editar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Infomovil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
@@ -6654,15 +6929,141 @@
               <option name="myItemId" value="Infomovil" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+              <option name="myItemId" value="Infomovil" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Infomovil" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Infomovil" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Infomovil" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fragment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Infomovil" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fragment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="principal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Infomovil" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomovil" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fragment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="editar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -6680,6 +7081,10 @@
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="TA8900DTYD" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_21_x86" />
     <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="ExportApk.ApkPath" value="$USER_HOME$/Desktop" />
+    <property name="ExportApk.Flavors" value="" />
+    <property name="ExportApk.BuildType" value="release" />
   </component>
   <component name="RunManager" selected="Android Application.infomovil">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -6834,7 +7239,7 @@
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -6900,22 +7305,22 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.4873016" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30047694" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2718601" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5917065" sideWeight="0.5126984" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.57869637" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37201908" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47138315" sideWeight="0.48095238" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20190778" sideWeight="0.4873016" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5381558" sideWeight="0.4873016" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16648352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20604396" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32670906" sideWeight="0.51031744" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -6945,151 +7350,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/GaleriaPaso2Activity.java</url>
-          <line>568</line>
+          <url>file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/principal/InfomovilActivityFragment.java</url>
+          <line>199</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/common/LoginRedSocial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/GaleriaPaso2Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#4892#4944#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/InfomovilFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/common/utils/FacebookImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="116" column="15" selection-start-line="105" selection-start-column="12" selection-end-line="116" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/principal/InfomovilActivityFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/principal/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/common/LoginRedSocial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/GaleriaPaso2Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="238" column="17" selection-start-line="238" selection-start-column="17" selection-end-line="238" selection-end-column="17" />
-          <folding>
-            <element signature="e#4892#4944#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/InfomovilFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/common/utils/FacebookImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="116" column="15" selection-start-line="105" selection-start-column="12" selection-end-line="116" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/principal/InfomovilActivityFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/principal/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/common/LoginRedSocial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/GaleriaPaso2Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="238" column="17" selection-start-line="238" selection-start-column="17" selection-end-line="238" selection-end-column="17" />
-          <folding>
-            <element signature="e#4892#4944#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/InfomovilFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/common/utils/FacebookImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="116" column="15" selection-start-line="105" selection-start-column="12" selection-end-line="116" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/principal/InfomovilActivityFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -7229,37 +7500,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/principal/InfomovilActivityFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/webservicecalls/wsinfomovil/WsInfomovilCall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="45" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/infomovil/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="384" column="35" selection-start-line="384" selection-start-column="18" selection-end-line="384" selection-end-column="35" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/GaleriaPaso1Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="381" column="42" selection-start-line="381" selection-start-column="22" selection-end-line="381" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -7276,8 +7521,8 @@
         <state vertical-scroll-proportion="-14.0">
           <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
           <folding>
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="false" />
+            <element signature="e#637#638#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -7314,17 +7559,34 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
           <folding>
-            <element signature="e#2382#2383#0" expanded="true" />
-            <element signature="e#2437#2438#0" expanded="true" />
+            <element signature="e#2382#2383#0" expanded="false" />
+            <element signature="e#2437#2438#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/SeleccionarImagenFragment.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="96" column="72" selection-start-line="96" selection-start-column="72" selection-end-line="96" selection-end-column="72" />
+        <state vertical-scroll-proportion="-10.972112">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/widget/URLImageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.333334">
+          <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+          <folding>
+            <element signature="e#1947#2298#0" expanded="true" />
+            <element signature="e#2297#2298#0" expanded="true" />
+            <element signature="e#2443#2860#0" expanded="true" />
+            <element signature="e#2859#2860#0" expanded="true" />
+            <element signature="e#3261#3262#0" expanded="true" />
+            <element signature="e#3281#3282#0" expanded="true" />
+            <element signature="e#3325#3326#0" expanded="true" />
+            <element signature="e#3352#3353#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -7341,50 +7603,296 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/InfomovilFragment.java">
+    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/SeleccionarImagenFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="29" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="29" />
+          <caret line="96" column="72" selection-start-line="96" selection-start-column="72" selection-end-line="96" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/PerfilPaso2Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.703704">
+          <caret line="71" column="19" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/PerfilPaso1Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.703704">
+          <caret line="72" column="19" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/NombreSitioActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/principal/MenuPasosActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/InfomovilFragmentInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/MenuCrearQuickStartFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+          <folding>
+            <element signature="e#2331#2372#0" expanded="true" />
+            <element signature="e#2380#2429#0" expanded="true" />
+            <element signature="e#2431#2466#0" expanded="true" />
+            <element signature="e#2475#2515#0" expanded="true" />
+            <element signature="e#2517#2562#0" expanded="true" />
+            <element signature="e#3322#3347#0" expanded="true" />
+            <element signature="e#3687#3717#0" expanded="true" />
+            <element signature="e#4513#4538#0" expanded="true" />
+            <element signature="e#4575#4600#0" expanded="true" />
+            <element signature="e#6926#6987#0" expanded="true" />
+            <element signature="e#7586#7610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/MenuCrearActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.0">
+          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+          <folding>
+            <element signature="e#2751#2781#0" expanded="true" />
+            <element signature="e#3016#3056#0" expanded="true" />
+            <element signature="e#3582#3633#0" expanded="true" />
+            <element signature="e#4007#4044#0" expanded="true" />
+            <element signature="e#4053#4094#0" expanded="true" />
+            <element signature="e#4103#4134#0" expanded="true" />
+            <element signature="e#4136#4176#0" expanded="true" />
+            <element signature="e#4185#4234#0" expanded="true" />
+            <element signature="e#4236#4271#0" expanded="true" />
+            <element signature="e#4281#4319#0" expanded="true" />
+            <element signature="e#4321#4359#0" expanded="true" />
+            <element signature="e#4369#4407#0" expanded="true" />
+            <element signature="e#4409#4457#0" expanded="true" />
+            <element signature="e#4466#4505#0" expanded="true" />
+            <element signature="e#4507#4549#0" expanded="true" />
+            <element signature="e#4558#4604#0" expanded="true" />
+            <element signature="e#6083#6108#0" expanded="true" />
+            <element signature="e#6425#6441#0" expanded="true" />
+            <element signature="e#6562#6585#0" expanded="true" />
+            <element signature="e#7196#7221#0" expanded="true" />
+            <element signature="e#7258#7283#0" expanded="true" />
+            <element signature="e#7598#7628#0" expanded="true" />
+            <element signature="e#9485#9513#0" expanded="true" />
+            <element signature="e#9933#9958#0" expanded="true" />
+            <element signature="e#10253#10280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/InformacionAdicionalPaso2Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6666665">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <folding>
+            <element signature="e#2089#2108#0" expanded="false" />
+            <element signature="e#2384#2411#0" expanded="false" />
+            <element signature="e#4106#4161#0" expanded="false" />
+            <element signature="e#6447#6506#0" expanded="false" />
+            <element signature="e#6741#6797#0" expanded="false" />
+            <element signature="e#9022#9070#0" expanded="false" />
+            <element signature="e#9164#9209#0" expanded="false" />
+            <element signature="e#9377#9429#0" expanded="false" />
+            <element signature="e#9721#9773#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/DireccionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.666667">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding>
+            <element signature="e#2329#2356#0" expanded="false" />
+            <element signature="e#9732#9791#0" expanded="false" />
+            <element signature="e#9977#10028#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/DescripcionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.0">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+          <folding>
+            <element signature="e#1856#1890#0" expanded="false" />
+            <element signature="e#7448#7507#0" expanded="false" />
+            <element signature="e#7694#7750#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/ContactoPaso2Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.666667">
+          <caret line="51" column="60" selection-start-line="51" selection-start-column="60" selection-end-line="51" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/ContactosPaso1Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.148149">
+          <caret line="251" column="9" selection-start-line="251" selection-start-column="9" selection-end-line="251" selection-end-column="9" />
+          <folding>
+            <element signature="e#2926#2953#0" expanded="true" />
+            <element signature="e#3350#3377#0" expanded="true" />
+            <element signature="e#6326#6346#0" expanded="true" />
+            <element signature="e#6503#6530#0" expanded="true" />
+            <element signature="e#6832#6859#0" expanded="true" />
+            <element signature="e#6937#6964#0" expanded="true" />
+            <element signature="e#7340#7386#0" expanded="true" />
+            <element signature="e#7515#7561#0" expanded="true" />
+            <element signature="e#8726#8753#0" expanded="true" />
+            <element signature="e#10262#10315#0" expanded="true" />
+            <element signature="e#12001#12060#0" expanded="true" />
+            <element signature="e#12608#12661#0" expanded="true" />
+            <element signature="e#14139#14196#0" expanded="true" />
+            <element signature="e#14340#14394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/InformacionAdicionalActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.814815">
+          <caret line="191" column="16" selection-start-line="191" selection-start-column="16" selection-end-line="191" selection-end-column="16" />
+          <folding>
+            <element signature="e#2458#2489#0" expanded="true" />
+            <element signature="e#2760#2787#0" expanded="true" />
+            <element signature="e#2910#2967#0" expanded="true" />
+            <element signature="e#3087#3144#0" expanded="true" />
+            <element signature="e#3805#3837#0" expanded="true" />
+            <element signature="e#3917#3949#0" expanded="true" />
+            <element signature="e#6348#6373#0" expanded="true" />
+            <element signature="e#7932#7957#0" expanded="true" />
+            <element signature="e#8250#8318#0" expanded="true" />
+            <element signature="e#8462#8518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/PlayVideoFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="183" column="16" selection-start-line="183" selection-start-column="16" selection-end-line="183" selection-end-column="16" />
+          <folding>
+            <element signature="e#5338#5339#0" expanded="true" />
+            <element signature="e#5380#5381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/GaleriaPaso1Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.296296">
+          <caret line="270" column="23" selection-start-line="270" selection-start-column="12" selection-end-line="270" selection-end-column="23" />
+          <folding>
+            <element signature="e#2990#3016#0" expanded="true" />
+            <element signature="e#3226#3253#0" expanded="true" />
+            <element signature="e#3394#3447#0" expanded="true" />
+            <element signature="e#4461#4485#0" expanded="true" />
+            <element signature="e#4559#4583#0" expanded="true" />
+            <element signature="e#5421#5480#0" expanded="true" />
+            <element signature="e#5602#5661#0" expanded="true" />
+            <element signature="e#6795#6815#0" expanded="true" />
+            <element signature="e#8878#8898#0" expanded="true" />
+            <element signature="e#9179#9235#0" expanded="true" />
+            <element signature="e#9379#9432#0" expanded="true" />
+            <element signature="e#10388#10447#0" expanded="true" />
+            <element signature="e#10698#10754#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/webservicecalls/wsinfomovil/WsInfomovilCall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="411" column="0" selection-start-line="411" selection-start-column="0" selection-end-line="411" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/webservicecalls/wsinfomovil/WsInfomovilResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="366" column="16" selection-start-line="366" selection-start-column="16" selection-end-line="366" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/InfomovilFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3333335">
+          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding>
+            <element signature="e#2445#2446#0" expanded="true" />
+            <element signature="e#2489#2490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/PromocionesActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.333334">
+          <caret line="129" column="56" selection-start-line="129" selection-start-column="22" selection-end-line="129" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/principal/InfomovilActivityFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="231" column="38" selection-start-line="231" selection-start-column="38" selection-end-line="231" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/fragment/editar/GaleriaPaso2Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="426" column="13" selection-start-line="426" selection-start-column="13" selection-end-line="426" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.8215223">
+          <caret line="739" column="45" selection-start-line="739" selection-start-column="45" selection-end-line="739" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#initResume#0;class#GaleriaPaso2Activity#0" expanded="false" />
-            <element signature="e#26374#26375#0" expanded="true" />
-            <element signature="e#26402#26403#0" expanded="true" />
-            <element signature="e#26460#26461#0" expanded="true" />
-            <element signature="e#26503#26504#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.972112">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infomovil/src/main/java/com/infomovil/infomovil/gui/widget/URLImageView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34105262">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding>
-            <element signature="e#1947#2298#0" expanded="true" />
-            <element signature="e#2297#2298#0" expanded="true" />
-            <element signature="e#2443#2860#0" expanded="true" />
-            <element signature="e#2859#2860#0" expanded="true" />
-            <element signature="e#3261#3262#0" expanded="true" />
-            <element signature="e#3281#3282#0" expanded="true" />
-            <element signature="e#3325#3326#0" expanded="true" />
-            <element signature="e#3352#3353#0" expanded="true" />
+            <element signature="e#4892#4944#0" expanded="true" />
+            <element signature="e#5606#5631#0" expanded="true" />
+            <element signature="e#11053#11105#0" expanded="true" />
+            <element signature="e#11390#11391#0" expanded="true" />
+            <element signature="e#11426#11427#0" expanded="true" />
+            <element signature="e#13883#13932#0" expanded="true" />
+            <element signature="e#16135#16167#0" expanded="true" />
+            <element signature="class#EditTextWithFontWatcher#0;class#GaleriaPaso2Activity#0" expanded="false" />
+            <element signature="e#26475#26476#0" expanded="true" />
+            <element signature="e#26499#26500#0" expanded="true" />
+            <element signature="e#26537#26538#0" expanded="true" />
+            <element signature="e#26565#26566#0" expanded="true" />
+            <element signature="e#26623#26624#0" expanded="true" />
+            <element signature="e#26666#26667#0" expanded="true" />
           </folding>
         </state>
       </provider>

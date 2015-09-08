@@ -198,6 +198,7 @@ public class InformacionAdicionalActivity extends InfomovilFragment {
 		else {
 			datosUsuario.getEstatusEdicion()[10] = false;
 		}
+		infomovilInterface.returnFragment("");
 	}
 
 	@Override
