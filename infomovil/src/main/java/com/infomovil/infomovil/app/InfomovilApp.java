@@ -11,6 +11,7 @@ import android.content.pm.PackageManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
+import android.support.multidex.MultiDexApplication;
 import android.util.Log;
 import android.view.ViewConfiguration;
 
@@ -27,7 +28,7 @@ import com.infomovil.infomovil.server.ItemsDominioParse;
 //mailTo = "lfpradof@gmail.com",
 //mode = ReportingInteractionMode.TOAST,
 //resToastText = R.string.crash_toast_text)
-public class InfomovilApp extends Application {
+public class InfomovilApp extends MultiDexApplication {
 	
 	//Variables de configuracion global
 	//Habilita el ambiente de despliegue

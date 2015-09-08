@@ -2,12 +2,12 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 21
-    buildToolsVersion "23.0.0"
+    buildToolsVersion '23.0.1'
 
     defaultConfig {
         applicationId "com.infomovil.infomovil"
         minSdkVersion 14
-        targetSdkVersion
+        targetSdkVersion 18
         multiDexEnabled true
     }
 
@@ -55,4 +55,5 @@ dependencies {
     compile files('libs/property-list-2.0.0.jar')
     compile files('libs/sun.misc.BASE64Decoder.jar')
     compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.android.support:multidex:1.0.0'
 }
