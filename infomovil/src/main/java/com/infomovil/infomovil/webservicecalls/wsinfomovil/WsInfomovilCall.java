@@ -50,8 +50,8 @@ import com.infomovil.infomovil.webservicecalls.wsinfomovil.model.WS_VisitaVO;
 public class WsInfomovilCall extends AsyncTask<WSInfomovilMethods, Integer, WsInfomovilProcessStatus>
 { 
 	private static final String NAMESPACE	= "http://ws.webservice.infomovil.org/";
-	private static final String URL			= "http://qa.mobileinfo.io//WsInfomovil/wsInfomovildomain";
-//	private static final String URL			= "http://infomovil.com/WsInfomovil/wsInfomovildomain";
+//	private static final String URL			= "http://qa.mobileinfo.io//WsInfomovil/wsInfomovildomain";
+	private static final String URL			= "http://infomovil.com/WsInfomovil/wsInfomovildomain";
 //	private static final String URL			= "http://172.17.3.192:8080/WsInfomovil/wsInfomovildomain";
 //	private static final String URL			= "http://172.16.51.30:8080/WsInfomovil/wsInfomovildomain";
 	

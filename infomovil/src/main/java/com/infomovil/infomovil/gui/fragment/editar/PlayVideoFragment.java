@@ -183,6 +183,7 @@ public class PlayVideoFragment extends InfomovilFragment {
 	@Override
 	public void keyDownAction(){
 		videoYoutube.loadUrl("about:blank");
+		infomovilInterface.returnFragment("");
 	}
 	
 	

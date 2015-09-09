@@ -651,7 +651,7 @@ public class GaleriaPaso2Activity extends InfomovilFragment implements WsInfomov
 				// Android sets the picture in extra data.
 				Bitmap bitAux = takenPictureData;
 				Log.d("infoLog", "Redimensionando imagen " + sizeOf(bitAux));
-				bitAux = ScalingUtilities.createScaledBitmap(bitAux, 450, bitAux.getHeight(), ScalingLogic.FIT);
+				bitAux = ScalingUtilities.createScaledBitmap(bitAux, 450, 450, ScalingLogic.FIT);
 				takenPictureData = bitAux;
 
 			} else {
@@ -662,7 +662,7 @@ public class GaleriaPaso2Activity extends InfomovilFragment implements WsInfomov
 					Bitmap bitAux = ToolBox.media_getBitmapFromFile(outFile);
 					bitAux = ToolBox.media_correctImageOrientation(outFile
 							.getAbsolutePath());
-					bitAux = ScalingUtilities.createScaledBitmap(bitAux, 450, bitAux.getHeight(), ScalingLogic.FIT);
+					bitAux = ScalingUtilities.createScaledBitmap(bitAux, 450, 450, ScalingLogic.FIT);
 					takenPictureData = bitAux;
 					
 				} catch (Exception e) {

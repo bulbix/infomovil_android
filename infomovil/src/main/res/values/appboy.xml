@@ -7,16 +7,16 @@
 <!-- 	<string name="com_appboy_push_gcm_sender_id">801382235762</string> -->
     
     <!--QA cuenta lfpradof@gmail.com -->
-	<string name="com_appboy_api_key">cc3bfe1c-4111-49dd-9ecc-580d36586ad7</string>
-	<string name="com_appboy_push_gcm_sender_id">702393175737</string>
+	<!--<string name="com_appboy_api_key">cc3bfe1c-4111-49dd-9ecc-580d36586ad7</string>-->
+	<!--<string name="com_appboy_push_gcm_sender_id">702393175737</string>-->
 
  	<!-- PreProduccion  cuenta infomovil.operativo@gmail.com-->
 <!-- 	<string name="com_appboy_api_key">6b93c8b9-194f-4806-ad10-4558451aa6cd</string> -->
 <!-- 	<string name="com_appboy_push_gcm_sender_id">854935335232</string> -->
     
     <!-- Produccion cuenta infomovil.test@gmail.com-->
-<!-- 	<string name="com_appboy_api_key">6fc7cba7-d9c9-47dc-a82b-3cc05ebff2ec</string> -->
-<!-- 	<string name="com_appboy_push_gcm_sender_id">585514192998</string> -->
+ 	<string name="com_appboy_api_key">6fc7cba7-d9c9-47dc-a82b-3cc05ebff2ec</string>
+ 	<string name="com_appboy_push_gcm_sender_id">585514192998</string>
     
     <bool name="com_appboy_push_gcm_messaging_registration_enabled">true</bool>
             

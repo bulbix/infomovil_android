@@ -32,7 +32,7 @@ public class InfomovilApp extends MultiDexApplication {
 	
 	//Variables de configuracion global
 	//Habilita el ambiente de despliegue
-	public final static String perfilInfomovil = "qa";
+	public final static String perfilInfomovil = "prod";
 	public static String tipoInfomovil = "recurso";
 
 	private static boolean enTramite;

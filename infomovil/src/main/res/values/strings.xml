@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation" tools:locale="es">
 
-    <string name="app_name">Infomovil QA</string>
+    <string name="app_name">Infomovil</string>
 
     <!-- Titulos de las vistas -->
 
