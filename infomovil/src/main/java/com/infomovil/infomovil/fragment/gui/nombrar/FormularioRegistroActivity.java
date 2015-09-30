@@ -51,7 +51,7 @@ public class FormularioRegistroActivity extends InfomovilActivity implements NoS
 	
 	public String validaCampos() {
 		String respuesta;
-		String strEmail = txtNombre.getText().toString();
+		String strEmail = txtNombre.getText().toString().trim();
 		if(strEmail.trim().isEmpty() || txtConfirmPassword.getText().toString().trim().isEmpty() ||  txtPassword.getText().toString().trim().isEmpty()){
 			respuesta = getResources().getString(R.string.verificaDatosFormulario);
 		}else{

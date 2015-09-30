@@ -60,37 +60,37 @@ public class RegistroUsuarioActivity extends InfomovilActivity implements NoSesi
 	
 	
 	public String validaCampos() {
-		String respuesta;
+		String respuesta = "Correcto";
+
+		txtNombre.setText(txtNombre.getText().toString().trim());
+
 		String strEmail = txtNombre.getText().toString();
-		if(strEmail.trim().isEmpty() || txtConfirmPassword.getText().toString().trim().isEmpty() ||  txtPassword.getText().toString().trim().isEmpty()){
+		String password =  txtPassword.getText().toString();
+		String confirmPassword = txtConfirmPassword.getText().toString();
+
+		if(strEmail.isEmpty() || confirmPassword.isEmpty() || password.isEmpty()){
 			respuesta = getResources().getString(R.string.verificaDatosFormulario);
-		}else{
-		if (!strEmail.isEmpty()) {
-			String arrAux[] = strEmail.split("@");
-			strEmail = arrAux[0];
 		}
-		if(!CommonUtils.isValidEmail(txtNombre.getText().toString())) {
+		else if(!CommonUtils.isValidEmail(strEmail)) {
 			respuesta = getResources().getString(R.string.verificaEmail);
 		}
-		else if (!txtPassword.getText().toString().equals(txtConfirmPassword.getText().toString())){
+		else if (!password.equals(confirmPassword)){
 			respuesta = getResources().getString(R.string.msgPasswordDif);
 		}
-		else if (txtPassword.getText().toString().length() < 8 || txtPassword.getText().toString().length() > 15) {
+		else if (password.length() < 8 || password.length() > 15) {
 			respuesta = getResources().getString(R.string.passDebe) + " " + getResources().getString(R.string.infoPasswordTamano);
 		}
-		else if (txtPassword.getText().toString().contains("Infomovil") || txtPassword.getText().toString().contains("INFOMOVIL") || txtPassword.getText().toString().contains("infomovil") || txtPassword.getText().toString().contains("fomovil")) {
+		else if (password.contains("Infomovil") || password.contains("INFOMOVIL") ||
+				password.contains("infomovil") || password.contains("fomovil")) {
 			respuesta = getResources().getString(R.string.infoPasswordInfomovil);
 		}
-		else if (txtPassword.getText().toString().equalsIgnoreCase(strEmail)) {
+		else if (password.equalsIgnoreCase(strEmail.split("@")[0])) {
 			respuesta = getResources().getString(R.string.infoPasswordCorreo);
 		}
-		else if (!CommonUtils.isValidPassword(strEmail, txtPassword.getText().toString())) {
+		else if (!CommonUtils.isValidPassword(strEmail.split("@")[0], password)) {
 			respuesta = getResources().getString(R.string.passDebe) + " " + getResources().getString(R.string.infoPasswordTamano);
 		}
-		else {
-			respuesta = "Correcto";
-		}
-		}
+
 		return respuesta;
 	}
 	
