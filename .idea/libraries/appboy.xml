@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="appboy">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/androidsdkui/libs/appboy.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
